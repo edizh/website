@@ -1,3 +1,3 @@
 # Personal website
 
-My personal site built with [Astro](https://astro.build/).
+My [personal site](https://edizh.github.io/website/) built with [Astro](https://astro.build/).
