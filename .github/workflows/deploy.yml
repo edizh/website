@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 # Quote `on` — unquoted `on` is boolean `true` in YAML 1.1 and breaks triggers.
 'on':
   push:
-    branches: [main]
+    branches: [master]
   workflow_dispatch:
 
 # Allow this job to clone the repo and create a page deployment
