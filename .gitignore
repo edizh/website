@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# local-only copy of upstream Astro starter readme (public README.md is for the repo)
+README.local.md
