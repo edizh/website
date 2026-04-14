@@ -1,0 +1,175 @@
+---
+title: 'How to win your football manager league through linear programming'
+description: 'A rule-based approach to determine your winning squad'
+pubDate: 'Jan 10 2023'
+heroImage: '../../assets/blog-football-manager-linear-programming/title.jpg'
+---
+
+import CsvTable from '../../components/CsvTable.astro';
+import table1 from '../../assets/blog-football-manager-linear-programming/table-1.csv?raw';
+import table2 from '../../assets/blog-football-manager-linear-programming/table-2.csv?raw';
+import table3 from '../../assets/blog-football-manager-linear-programming/table-3.csv?raw';
+import table4 from '../../assets/blog-football-manager-linear-programming/table-4.csv?raw';
+
+Football manager leagues are a test of strategy and decision-making, but what if we could use algorithms to give us an edge? In this article, we will explore how linear programming (LP) can be used to create a league-winning squad. Of course, there is no winning guarantee but as the Nobel Prize winner Daniel Kahnemann likes to point out in his books *Thinking, Fast and Slow* and *Noise*, rule-based approaches commonly outperform human judgment. So let’s dive in and learn how to use LP while putting together the ultimate football squad. You can find the corresponding Python code [here](https://github.com/EdKaHe/linear_programming).
+
+![Title](../../assets/blog-football-manager-linear-programming/title.jpg)
+*Football manager leagues are a test of strategy and decision-making, but what if we could use algorithms to give us an edge?*
+
+There are many variations of football manager leagues out there but the common aim of most of them is building the best-performing squad in the upcoming season on a constrained budget. The primary goal is therefore to fill our squad with players that we expect to perform well without exceeding the available budget. Additionally, there are game-specific constraints like the strict positional commitment of players (e.g. goalkeeper) or the restriction of tactical formations (e.g. 4–4–2). But before diving into the specifics of the problem, let’s sketch our approach to select the ultimate football manager league squad.
+
+First, we will review the rules (boundary conditions) of our football manager game of choice and explore the available data. We will then identify a way to predict the players' performance in the upcoming season and create our LP model to find the optimal combination of players for the squad. Finally, we will refine the LP model to implement our strategies and discuss further ideas to improve the optimization routine. The sections will thus be:
+
+1. Exploring the boundary conditions and available data
+2. Predicting the players’ performance
+3. Creating the LP model
+4. Refining the LP model
+5. Further ideas
+
+### 1. Exploring the boundary conditions and available data
+
+The player statistics and rules here are based on a real football manager game, in which 22 Bundesliga players have to be selected on a budget of 42.5 million euros. The 22 players need to consist of three goalkeepers, six defenders, eight midfielders, and five attackers, distributed among one of these tactical starting formations ((goal)–defense–midfield–attack):
+
+- (1)–3–5–2
+- (1)–4–5–1
+- (1)–4–4–2
+- (1)–4–3–3
+- (1)–3–4–3
+- (1)–5–3–2
+- (1)–5–4–1
+
+The players are rated with a number of points after each matchday according to their actual performance and can be bought before the season for their in-game market value with the lowest possible price being 0.5 million euros. Each player's performance is thus equivalent to the number of points gathered throughout the season. For the season 2022/2023 the available players' statistics were as displayed in Table 1.
+
+<CsvTable csv={table1} maxDataRows={10} />
+**Table 1:** *Statistics of ten exemplary players of the season 2022/2023. The available data are the first name, last name, date of birth (dob), club, position, and price.*
+
+Based on this data, we could already select our 22 Bundesliga players fulfilling the constraints imposed by the football manager league rules. However, our goal is not just to randomly select 22 rule-compliant players, but 22 rule-compliant players who maximize the expected points gathered in the upcoming season. We thus have an optimization problem with the objective of finding a team to maximize the expected number of points. But how can we predict the number of points we expect players to collect throughout the upcoming season?
+
+### 2. Predicting the players' performance
+
+A rather straightforward and intuitive approach to predicting future performance is to use the past performance of the players. Luckily, the players’ statistics for the seasons 2019/2020, 2020/2021, and 2021/2022 with the points each player collected throughout the season are available to us as shown in Table 2.
+
+<CsvTable csv={table2} maxDataRows={10} />
+**Table 2:** *Statistics of ten exemplary players of the season 2021/2022. As the season has passed already, each player has their accumulated number of points displayed. Players have “nan” points if they weren’t rated.*
+
+We can merge the tables of the seasons 2019/2020, 2020/2021, and 2021/2022 on the table of the current season 2022/2023 using the first name, last name, and date of birth as unique identifiers so that we end up with the table shown in Table 3 that contains the points each player collected in the previous seasons with the other stats being from the current season.
+
+<CsvTable csv={table3} maxDataRows={10} />
+**Table 3:** *Merged statistics of ten exemplary players of the past and upcoming seasons. As some players have not played all seasons (or none) they have “nan” points displayed.*
+
+To predict the future performance of a player we will take the points a player has gathered in past seasons and compute a weighted average that overweights the performance in more recent seasons. A reasonable choice to calculate the weights is to measure the correlation between the points players collected in one season with the points the players collected in the following seasons. More specifically we compute the correlation between the columns “points_2019” and “points_2020” ($c_{19,20}$), “points_2020” and “points_2021” ($c_{20,21}$), and “points_2019” and “points_2021” ($c_{19,21}$):
+
+- $c_{19,20} = 0.61$
+- $c_{20,21} = 0.54$
+- $c_{19,21} = 0.38$
+
+We can now take the average of $c_{19,20}$ and $c_{20,21}$ as the average correlation $c_1$ between two consecutive seasons and $c_{19,21}$ as the correlation $c_2$ between seasons that are two years apart. Unfortunately, we cannot compute the correlation $c_3$ between seasons that are three years apart in the same way. However, we need $c_3$ to estimate the influence of the performance in the season 2019/2020 on the predicted performance in 2022/2023. Therefore, we will estimate it from the rate of change between $c_1$ and $c_2$ assuming an exponential decay of the correlation yielding
+
+- $c_1 = (c_{19,20} + c_{20,21}) / 2 = 0.57$
+- $c_2 = c_{19,21} = 0.38$
+- $c_3 = c_2 \cdot (c_2 / c_1) = 0.25$
+
+The weights required to calculate the weighted average are obtained by normalizing the sum of the correlations to 1:
+
+- $w_1 = c_1 / (c_1 + c_2 + c_3) = 0.48$
+- $w_2 = c_2 / (c_1 + c_2 + c_3) = 0.31$
+- $w_3 = c_3 / (c_1 + c_2 + c_3) = 0.21$
+
+Now, we have everything required to predict the number of points
+
+$$
+p = w_1 p_{21} + w_2 p_{20} + w_3 p_{19}
+$$
+
+collected in the upcoming season derived from the points of the past seasons $p_{19}$ (2019/2020), $p_{20}$ (2020/2021), and $p_{21}$ (2021/2022). We give players with missing points a default rating of 0 points so that each player has a performance prediction as it is shown in Table 4. We can now continue finding the squad that maximizes the number of predicted points given the constraints imposed by the football manager league rules.
+
+<CsvTable csv={table4} maxDataRows={10} />
+**Table 4:** *Merged statistics of ten exemplary players of the past and upcoming seasons. The column “prediction” contains the expected number of points for each player for the upcoming season.*
+
+### 3. Creating the LP model
+
+In the season 2022/2023, there were $n = 553$ players available for which we predicted the performance in the upcoming season. In order to find the squad that maximizes the number of expected points under the given constraints we have to formulate the problem in more mathematical terms.
+
+We begin by defining a variable $x_i \in \{0,1\}$ that is $1$ if a player $i$ is part of our optimal squad or $0$ if he is not. As we know, each of the players has a market value (price) $v_i$ and a predicted number of points $p_i$. Furthermore, we know whether a player is a goalkeeper ($g_i = 1$) or not ($g_i = 0$), a defender ($d_i = 1$) or not ($d_i = 0$), a midfielder ($m_i = 1$) or not ($m_i = 0$), or an attacker ($a_i = 1$) or not ($a_i = 0$). This is already enough to formulate our objective function
+
+$$
+f(\mathbf{x}) = \sum_{i=1}^{n} p_i x_i
+$$
+
+that we want to optimize (maximize) and our constraints, which are
+
+1. do not exceed the budget: $\sum_{i=1}^{n} v_i x_i \leq 42.5$
+2. have three goalies: $\sum_{i=1}^{n} g_i x_i = 3$
+3. have six defenders: $\sum_{i=1}^{n} d_i x_i = 6$
+4. have eight midfielders: $\sum_{i=1}^{n} m_i x_i = 8$
+5. have five attackers: $\sum_{i=1}^{n} a_i x_i = 5$
+
+The brute-force approach to this problem is trying every possible combination of 22 players and saving the one that maximized our objective function. However, choosing 22 from 553 players allows about $1.27 \times 10^{39}$ possible combinations. So a brute-force approach is not even feasible with the most powerful computers. Luckily, LP, or more specifically binary LP (BLP), is here to help us out.
+
+LP is a method for optimizing a linear objective function (here $f(\mathbf{x})$), subject to constraints represented by linear equations or inequalities. The goal is to find the values of the variables (here $x_i$) that minimize or maximize the objective function, subject to the constraints. In our case, we speak of BLP since our variables $x_i$ can only take the binary values $1$ or $0$ (select a player or not), but more generally it is also possible to use LP if $x_i$ is an integer (integer LP or ILP) or continuous. We see that BLP is exactly what we need to efficiently solve our optimization problem and find our ideal squad.
+
+In our case, we use the linear programming Python package [PuLP](https://coin-or.github.io/pulp/) to pick the players that will give us the number of predicted points while obeying the rules of the game. The implementation is rather simple with some knowledge of Python and the PuLP-specific syntax ([see here](https://github.com/EdKaHe/linear_programming)).
+
+![Figure 1](../../assets/blog-football-manager-linear-programming/figure-1.png)
+**Figure 1:** *The team determined by our linear programming model that maximizes the number of predicted points. The tactical formation (1)–4–4–2 is exemplary here and could be replaced by any other formation.*
+
+Our LP model returns us the optimal 22 players shown in Figure 1 in practically no time. We can see that the squad is nicely balanced with decent players from various clubs and without pricy superstars. However, on each match day, only the points collected by the starting eleven are counted. This raises the question of whether we really need to have so many good substitutes. Wouldn’t it be better to spend more money on the starting eleven and save on some of the substitutes? It’s time to implement our personal strategies into the LP model.
+
+### 4. Refining the LP model
+
+The most straightforward approach to spending more money on the starters is to remove all substitutes. While the game requires us to buy 22 players we could just buy eleven substitutes for the minimal market value of 0.5 million euros and spend the remaining 42.5 - 11 ⋅ 0.5 = 37 million euros on the starters. The problem with that strategy is that players are often injured, have problems with a new coach, or are hindered to reach their old performance for other reasons. Because of that, it is smarter to at least have some decent substitutes.
+
+A good compromise is to allow one drop-out of a player at each position. Intuitively, one could think that we thus need to buy four substitutes — one for each position. However, as we can change the tactical formation throughout the season it is actually enough to buy two substitute players — a goalkeeper and a field player. The list below shows the different tactical formations available with the corresponding positions of the two substitutes (subs) and the resulting tactical formation of core players (combined starters and subs)
+
+- (1)–3–5–2 starters, (1)–1–0–0 subs → (2)–4–5–2 core players
+- (1)–4–5–1 starters, (1)–0–0–1 subs → (2)–4–5–2 core players
+- (1)–4–4–2 starters, (1)–0–1–0 subs → (2)–4–5–2 core players
+- (1)–4–3–3 starters, (1)–0–1–0 subs → (2)–4–4–3 core players
+- (1)–3–4–3 starters, (1)–1–0–0 subs → (2)–4–4–3 core players
+- (1)–5–3–2 starters, (1)–0–1–0 subs → (2)–5–4–2 core players
+- (1)–5–4–1 starters, (1)–0–0–1 subs → (2)–5–4–2 core players
+
+We can see that the seven starter tactical formations can be reduced to three core tactical formations, which are (2)–4–5–2, (2)–4–4–3, and (2)–5–4–2. These core tactical formations ensure that eleven decent starters are available if up to one player in any position drops out. If we play with the starter tactical formation (1)–4–4–2 (core tactical formation (2)–4–5–2) and one of our attackers drops out, we can bring on our substitution midfielder and continue playing with a (1)–4–5–1 starter tactical formation. This works for any position and is great news as it gives us more flexibility and allows us to spend more money on our 13 core players.
+
+The second strategic implementation is to ensure that we select players from different clubs. This is important for reasons of diversification. If we would select too many players from a single club the risk would be high to be strongly affected by a seasonal club crisis. One can argue (or validate from historical data) what a good upper limit of players from the same club is but here we use a quite low limit of two core players per club.
+
+Let’s now refine our BLP model with our two strategic implementations: the reduction to thirteen core players and the limitation of two core players per club.
+
+Our objective function to maximize stays as before
+
+$$
+f(\mathbf{x}) = \sum_{i=1}^{n} p_i x_i
+$$
+
+However, we need to update our constraints. For this, we need to introduce some new variables. Firstly, we define $v_{\min} = 0.5$ as the minimal market value in million euros. The binary parameter $f_{ij}$ defines whether a player $i$ is playing on the $j$-th position (goal $\to j = 0$, defense $\to j = 1$, midfield $\to j = 2$, attack $\to j = 3$) or not with $n_j$ being the number of players on a position for each tactical formation. For the core tactical formation (2)–4–5–2 it is thus $n_0 = 2$, $n_1 = 4$, $n_2 = 5$, and $n_3 = 2$. We compute the number of cheap residual players as $n_r = 22 - (n_0 + \cdots + n_3) = 9$. Finally, we define $c_{ik}$ as a binary parameter specifying whether a player $i$ plays in the club $k = 1, 2, \ldots, 18$ or not (the Bundesliga has 18 teams).
+
+We have therefore three constraints for each of the three core tactical formations that refine our LP model to consider our personal strategy:
+
+1. do not exceed the budget: $\sum_{i=1}^{n} v_i x_i \leq 42.5 - v_{\min} n_r$
+2. fulfill the $j^\text{th}$ position constraint: $\sum_{i=1}^{n} f_{ij} x_i = n_j$
+3. fulfill the $k^\text{th}$ club constraint: $\sum_{i=1}^{n} c_{ik} x_i \leq 2$
+
+Note, that the second constraint here is a more compact and flexible way to write the constraints 2–5 in the previous section. In Figure 2–4 you find the optimal squads determined by our refined LP model for the three core tactical formations. You can see that by sacrificing substitutes we could drastically increase the average number of core player points. All three formations have about the same number of total expected points so at this point the squad selection depends mostly on your personal taste.
+
+![Figure 2](../../assets/blog-football-manager-linear-programming/figure-2.png)
+**Figure 2:** *The team determined by our linear programming model that maximizes the number of predicted points for the core tactical formation (2)–4–4–3 considering our strategic implementations. The starter tactical formation (1)–4–3–3 is exemplary here and could be replaced by (1)–3–4–3 for example by substituting the players marked with a heart.*
+
+![Figure 3](../../assets/blog-football-manager-linear-programming/figure-3.png)
+**Figure 3:** *The team determined by our linear programming model that maximizes the number of predicted points for the core tactical formation (2)–4–5–2 considering our strategic implementations. The starter tactical formation (1)–4–4–2 is exemplary here and could be replaced by (1)–4–5–1 or (1)–3–5–2 for example by substituting the players marked with a heart.*
+
+![Figure 4](../../assets/blog-football-manager-linear-programming/figure-4.png)
+**Figure 4:** *The team determined by our linear programming model that maximizes the number of predicted points for the core tactical formation (2)–5–4–2 considering our strategic implementations. The starter tactical formation (1)–5–3–2 is exemplary here and could be replaced by (1)–5–4–1 for example by substituting the players marked with a heart.*
+
+The refined BLP model already efficiently provides strong teams obeying the game rules and our personal strategy. Nevertheless, there is always room for improvement. So let’s discuss some ideas for future implementation before coming to an end.
+
+### 5. Further ideas
+
+A pretty simple but important update would be to allow blacklisting players from the whole optimization routine. This is because some players change to other leagues, have long-term injuries, or are not considered anymore. Goalkeeper Timo Horn is an excellent example of this, as he played well in previous seasons but was degraded to second goalkeeper this season. This explains his high number of predicted points but the low in-game market value in the squads above (Figure 1–4). Therefore, it makes sense to re-run the BLP optimization without these players.
+
+Another quite interesting implementation would be to allow more than one player drop-out per position. In my experience, it is often not enough to allow only one missing player, requiring us to bring in a cheap residual player, and costing valuable points. Adding the capability to predict optimal squads for different numbers of player drop-outs would add a lot of flexibility to the squad. Similar to the limit of core players per club the ideal trade-off could be validated from historical data.
+
+Being able to predict player performance from data that is not coming only from the Bundesliga would also be a major advantage. This is because the current approach does not allow for predicting the performance of players that were just transferred to the Bundesliga (see Sebastien Haller in Table 3) in a meaningful way. How difficult this is to implement depends on whether there is a database providing reliable match-wise player performance ratings. A [football league rating](https://www.globalfootballrankings.com/) could help normalize the player ratings to the league strength potentially providing good predictive power.
+
+Do you have any other ideas on how to improve the BLP optimization pipeline? If so, let me know so that I can outcompete even my most talented (or lucky?) friends in the future :-) Also, don’t hesitate to reach out for corrections, additions, or questions. You can find the full Python code and data [here](https://github.com/edizh/linear_programming).
+
+---

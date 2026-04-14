@@ -1,0 +1,64 @@
+---
+import { parseCsv } from '../lib/parseCsv';
+
+interface Props {
+	/** Raw file contents from `import x from '...csv?raw'` */
+	csv: string;
+	/** Number of data rows after the header (default 10) */
+	maxDataRows?: number;
+}
+
+const { csv, maxDataRows = 10 } = Astro.props;
+const rows = parseCsv(csv);
+const header = rows[0] ?? [];
+const data = rows.slice(1, 1 + maxDataRows);
+---
+
+{
+	header.length > 0 && (
+		<div class="csv-table-wrap">
+			<table class="csv-table">
+				<thead>
+					<tr>
+						{header.map((cell) => (
+							<th>{cell}</th>
+						))}
+					</tr>
+				</thead>
+				<tbody>
+					{data.map((row) => (
+						<tr>
+							{row.map((cell) => (
+								<td>{cell}</td>
+							))}
+						</tr>
+					))}
+				</tbody>
+			</table>
+		</div>
+	)
+}
+
+<style>
+	.csv-table-wrap {
+		overflow-x: auto;
+		margin: 1em 0;
+		-webkit-overflow-scrolling: touch;
+	}
+	.csv-table {
+		width: 100%;
+		border-collapse: collapse;
+		font-size: 0.85em;
+	}
+	.csv-table th,
+	.csv-table td {
+		border: 1px solid rgba(var(--gray), 0.35);
+		padding: 0.35em 0.5em;
+		text-align: left;
+		vertical-align: top;
+	}
+	.csv-table th {
+		font-weight: 700;
+		background: rgba(var(--gray-light), 0.6);
+	}
+</style>

@@ -1,0 +1,15 @@
+---
+import { getCollection, render } from 'astro:content';
+import BlogPost from '../../layouts/BlogPost.astro';
+
+const entries = await getCollection('course');
+if (entries.length === 0) {
+	throw new Error('Add a .md or .mdx file under src/content/course/');
+}
+const entry = entries.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())[0];
+const { Content } = await render(entry);
+---
+
+<BlogPost {...entry.data}>
+	<Content />
+</BlogPost>

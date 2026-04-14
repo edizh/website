@@ -1,0 +1,554 @@
+first_name,last_name,dob,points_2019,points_2020,points_2021,club,position,price
+sardar,azmoun,01/01/1995,nan,nan,37.0,bayer 04 leverkusen,attack,2.2
+mahmoud,dahoud,01/01/1996,15.0,51.0,106.0,borussia dortmund,midfield,2.4
+benjamin,goller,01/01/1999,6.0,nan,nan,werder bremen,midfield,0.8
+conor,noß,01/01/2001,nan,nan,6.0,bor. mönchengladbach,midfield,0.6
+dong-jun,lee,01/02/1997,nan,nan,0.0,hertha bsc,attack,0.7
+patrick,osterhage,01/02/2000,nan,nan,32.0,vfl bochum,midfield,1.0
+maximilian,philipp,01/03/1994,nan,69.0,38.0,vfl wolfsburg,midfield,2.0
+niklas,schmidt,01/03/1998,nan,nan,nan,werder bremen,midfield,1.0
+sebastian,polter,01/04/1991,8.0,nan,108.0,fc schalke 04,attack,1.8
+philipp,pentke,01/05/1985,31.0,18.0,6.0,tsg hoffenheim,goal,0.8
+florian,flick,01/05/2000,nan,nan,nan,fc schalke 04,midfield,1.0
+krzysztof,piatek,01/07/1995,27.0,34.0,nan,hertha bsc,attack,1.7
+anthony,caci,01/07/1997,nan,nan,nan,1. fsv mainz 05,defense,1.6
+goncalo,paciencia,01/08/1994,64.0,-6.0,48.0,eintracht frankfurt,attack,1.5
+christoph,baumgartner,01/08/1999,107.0,120.0,148.0,tsg hoffenheim,midfield,3.2
+mads,pedersen,01/09/1996,nan,3.0,72.0,fc augsburg,defense,1.4
+luca,kilian,01/09/1999,19.0,-2.0,109.0,1. fc köln,defense,1.8
+filip,kostic,01/11/1992,139.0,158.0,177.0,eintracht frankfurt,midfield,3.8
+nordi,mukiele,01/11/1997,105.0,96.0,87.0,rb leipzig,defense,2.2
+elvis,rexhbecaj,01/11/1997,28.0,33.0,76.0,vfl wolfsburg,midfield,1.6
+lukas,petkov,01/11/2000,nan,nan,nan,fc augsburg,midfield,0.7
+nico,schlotterbeck,01/12/1999,13.0,50.0,267.0,borussia dortmund,defense,4.5
+gabriel,vidovic,01/12/2003,nan,nan,6.0,bayern münchen,midfield,0.5
+timothy,fosu-mensah,02/01/1998,nan,11.0,8.0,bayer 04 leverkusen,defense,1.4
+maxime,awoudja,02/02/1998,nan,nan,nan,vfb stuttgart,defense,0.5
+edmond,tapsoba,02/02/1999,57.0,107.0,97.0,bayer 04 leverkusen,defense,2.7
+simon,terodde,02/03/1988,42.0,nan,nan,fc schalke 04,attack,2.4
+fabian,bredlow,02/03/1995,nan,13.0,22.0,vfb stuttgart,goal,0.7
+mateu,morey,02/03/2000,2.0,24.0,nan,borussia dortmund,defense,1.7
+timo,schlieck,02/03/2006,nan,nan,nan,rb leipzig,goal,0.5
+janik,haberer,02/04/1994,38.0,-5.0,70.0,1. fc union berlin,midfield,1.7
+josip,stanisic,02/04/2000,nan,nan,55.0,bayern münchen,defense,1.5
+marco,john,02/04/2002,nan,18.0,8.0,tsg hoffenheim,defense,1.0
+janis,blaswich,02/05/1991,nan,nan,nan,rb leipzig,goal,0.7
+julian,brandt,02/05/1996,94.0,16.0,189.0,borussia dortmund,midfield,3.8
+blendi,idrizi,02/05/1998,nan,nan,nan,fc schalke 04,midfield,1.0
+mesut,kesik,02/05/2003,nan,nan,nan,hertha bsc,midfield,0.5
+oliver,baumann,02/06/1990,146.0,153.0,231.0,tsg hoffenheim,goal,3.2
+alexander,schwolow,02/06/1992,127.0,122.0,114.0,fc schalke 04,goal,2.3
+jordi,osei-tutu,02/10/1998,nan,nan,nan,vfl bochum,midfield,1.5
+alphonso,davies,02/11/2000,116.0,30.0,116.0,bayern münchen,defense,3.4
+konstantinos,stafylidis,02/12/1993,6.0,nan,76.0,vfl bochum,defense,1.6
+leandro,barreiro,03/01/2000,21.0,48.0,97.0,1. fsv mainz 05,midfield,1.6
+kevin,behrens,03/02/1991,nan,nan,67.0,1. fc union berlin,attack,1.6
+mohamed,simakan,03/05/2000,nan,nan,137.0,rb leipzig,defense,3.0
+mario,götze,03/06/1992,23.0,nan,nan,eintracht frankfurt,midfield,3.6
+lukas,klostermann,03/06/1996,118.0,59.0,105.0,rb leipzig,defense,2.6
+kerem,demirbay,03/07/1993,57.0,45.0,126.0,bayer 04 leverkusen,midfield,2.4
+kevin,möhwald,03/07/1993,3.0,47.0,26.0,1. fc union berlin,midfield,1.4
+denis,huseinbasic,03/07/2001,nan,nan,nan,1. fc köln,midfield,0.7
+sven,ulreich,03/08/1988,4.0,nan,22.0,bayern münchen,goal,0.8
+florian,dietz,03/08/1998,nan,nan,nan,1. fc köln,attack,0.5
+niklas,süle,03/09/1995,29.0,39.0,148.0,borussia dortmund,defense,3.6
+henri,koudossou,03/09/1999,nan,nan,nan,fc augsburg,midfield,0.5
+renato,steffen,03/11/1991,82.0,73.0,29.0,vfl wolfsburg,midfield,1.7
+anthony,jung,03/11/1991,nan,nan,nan,werder bremen,defense,1.5
+willi,orban,03/11/1992,48.0,139.0,176.0,rb leipzig,defense,3.5
+marcus,ingvartsen,04/01/1996,43.0,24.0,70.0,1. fsv mainz 05,attack,1.6
+nan,nan,04/01/1997,nan,nan,nan,rb leipzig,defense,3.0
+odilon,kossounou,04/01/2001,nan,nan,83.0,bayer 04 leverkusen,defense,1.9
+frederik,winther,04/01/2001,nan,nan,4.0,fc augsburg,defense,0.7
+philipp,förster,04/02/1995,nan,33.0,43.0,vfl bochum,midfield,1.5
+zidan,sertdemir,04/02/2005,nan,nan,6.0,bayer 04 leverkusen,midfield,0.7
+angelo,stiller,04/04/2001,nan,nan,92.0,tsg hoffenheim,midfield,1.7
+marcel,wenig,04/05/2004,nan,nan,nan,eintracht frankfurt,midfield,0.6
+robert,gumny,04/06/1998,nan,12.0,44.0,fc augsburg,defense,1.2
+benjamin,hübner,04/07/1989,75.0,nan,40.0,tsg hoffenheim,defense,1.8
+daley,sinkgraven,04/07/1995,31.0,31.0,32.0,bayer 04 leverkusen,defense,1.5
+nan,nan,04/07/1999,nan,nan,nan,eintracht frankfurt,defense,2.2
+frederik,rönnow,04/08/1992,55.0,42.0,40.0,1. fc union berlin,goal,2.3
+kristian,pedersen,04/08/1994,nan,nan,nan,1. fc köln,defense,1.5
+marvin,pieringer,04/10/1999,nan,nan,nan,fc schalke 04,attack,0.8
+aster,vranckx,04/10/2002,nan,nan,67.0,vfl wolfsburg,midfield,1.8
+tim,lemperle,05/02/2002,nan,nan,34.0,1. fc köln,midfield,1.0
+silvan,widmer,05/03/1993,nan,nan,164.0,1. fsv mainz 05,defense,2.5
+tim,maciejewski,05/03/2001,nan,nan,nan,1. fc union berlin,midfield,0.5
+julian,eitschberger,05/03/2004,nan,nan,nan,hertha bsc,defense,0.5
+jurgen,ekkelenkamp,05/04/2000,nan,nan,51.0,hertha bsc,midfield,1.5
+can,bozdogan,05/04/2001,nan,-9.0,nan,fc schalke 04,midfield,1.5
+jakub,kaminski,05/06/2002,nan,nan,nan,vfl wolfsburg,midfield,2.0
+fabio,chiarodia,05/06/2005,nan,nan,nan,werder bremen,defense,0.5
+ajdin,hrustic,05/07/1996,nan,16.0,63.0,eintracht frankfurt,midfield,1.5
+alou,kuol,05/07/2001,nan,nan,nan,vfb stuttgart,attack,0.8
+daichi,kamada,05/08/1996,32.0,105.0,94.0,eintracht frankfurt,midfield,2.4
+exequiel,palacios,05/10/1998,7.0,17.0,87.0,bayer 04 leverkusen,midfield,2.4
+ondrej,duda,05/12/1994,nan,65.0,58.0,1. fc köln,midfield,1.5
+alexander,sörloth,05/12/1995,nan,56.0,nan,rb leipzig,attack,2.0
+randal,kolo muani,05/12/1998,nan,nan,nan,eintracht frankfurt,attack,2.6
+jerome,roussillon,06/01/1993,44.0,32.0,79.0,vfl wolfsburg,defense,1.6
+djibril,sow,06/02/1997,18.0,56.0,144.0,eintracht frankfurt,midfield,2.6
+kevin-prince,boateng,06/03/1987,nan,nan,17.0,hertha bsc,midfield,1.5
+maxence,lacroix,06/04/2000,nan,127.0,83.0,vfl wolfsburg,defense,2.6
+peter,gulacsi,06/05/1990,166.0,166.0,231.0,rb leipzig,goal,4.2
+ilia,gruev,06/05/2000,nan,1.0,nan,werder bremen,midfield,1.3
+matteo,bignetti,06/05/2004,nan,nan,nan,eintracht frankfurt,goal,0.5
+anderson,lucoqui,06/07/1997,nan,32.0,29.0,1. fsv mainz 05,defense,1.2
+mateo,klimowicz,06/07/2000,nan,13.0,23.0,vfb stuttgart,midfield,1.2
+abdenego,nankishi,06/07/2002,nan,nan,nan,werder bremen,midfield,0.6
+marcus,thuram,06/08/1997,147.0,88.0,50.0,bor. mönchengladbach,attack,3.2
+raphael,framberger,06/09/1995,14.0,-16.0,38.0,fc augsburg,defense,0.7
+nan,nan,06/10/1998,nan,nan,nan,vfb stuttgart,midfield,2.6
+tim,oermann,06/10/2003,nan,nan,nan,vfl bochum,defense,0.5
+andré,silva,06/11/1995,91.0,265.0,124.0,rb leipzig,attack,4.6
+abdoulaye,kamara,06/11/2004,nan,nan,nan,borussia dortmund,midfield,0.5
+nils,petersen,06/12/1988,69.0,59.0,58.0,sc freiburg,attack,1.6
+gregor,kobel,06/12/1997,nan,166.0,206.0,borussia dortmund,goal,3.5
+oscar,fraulo,06/12/2003,nan,nan,nan,bor. mönchengladbach,midfield,0.5
+christopher,antwi-adjei,07/02/1994,2.0,nan,62.0,vfl bochum,midfield,1.4
+jonas,wind,07/02/1999,nan,nan,67.0,vfl wolfsburg,attack,2.3
+omar,marmoush,07/02/1999,nan,nan,69.0,vfl wolfsburg,attack,1.6
+marvin,ducksch,07/03/1994,nan,nan,nan,werder bremen,attack,2.4
+lee,buchanan,07/03/2001,nan,nan,nan,werder bremen,defense,1.2
+tony,jantschke,07/04/1990,54.0,13.0,12.0,bor. mönchengladbach,defense,1.0
+vincenzo,grifo,07/04/1993,86.0,147.0,247.0,sc freiburg,midfield,4.5
+oliver,burke,07/04/1997,nan,nan,nan,werder bremen,attack,1.4
+dani,olmo,07/05/1998,29.0,123.0,99.0,rb leipzig,midfield,4.0
+kevin,paredes,07/05/2003,nan,nan,4.0,vfl wolfsburg,midfield,0.8
+tanguy,nianzou,07/06/2002,nan,-2.0,46.0,bayern münchen,defense,1.7
+milos,pantovic,07/07/1996,nan,nan,67.0,1. fc union berlin,midfield,1.4
+sasa,kalajdzic,07/07/1997,nan,143.0,68.0,vfb stuttgart,attack,3.4
+moussa,diaby,07/07/1999,102.0,76.0,220.0,bayer 04 leverkusen,attack,5.0
+tim,skarke,07/09/1996,nan,nan,nan,1. fc union berlin,midfield,1.4
+delano,burgzorg,07/11/1998,nan,nan,9.0,1. fsv mainz 05,attack,1.0
+danny,latza,07/12/1989,24.0,18.0,nan,fc schalke 04,midfield,1.6
+arne,maier,08/01/1999,-1.0,-5.0,83.0,fc augsburg,midfield,1.6
+christian,groß,08/02/1989,18.0,4.0,nan,werder bremen,midfield,1.6
+joshua,kimmich,08/02/1995,191.0,151.0,189.0,bayern münchen,midfield,6.5
+luca,wollschläger,08/02/2003,nan,nan,nan,hertha bsc,attack,0.5
+benjamin,leneis,08/03/1999,nan,nan,nan,fc augsburg,goal,0.5
+karim,bellarabi,08/04/1990,77.0,19.0,73.0,bayer 04 leverkusen,attack,2.0
+ridle,baku,08/04/1998,36.0,137.0,119.0,vfl wolfsburg,midfield,2.4
+finn,ole becker,08/06/2000,nan,nan,nan,tsg hoffenheim,midfield,1.2
+dikeni,salifou,08/06/2003,nan,nan,nan,werder bremen,midfield,0.5
+kevin,trapp,08/07/1990,93.0,142.0,245.0,eintracht frankfurt,goal,3.8
+ivan,ordets,08/07/1992,nan,nan,nan,vfl bochum,defense,1.6
+vladimir,darida,08/08/1990,68.0,44.0,50.0,hertha bsc,midfield,1.6
+benjamin,uphoff,08/08/1993,nan,nan,0.0,sc freiburg,goal,0.7
+malick,thiaw,08/08/2001,nan,-18.0,nan,fc schalke 04,defense,1.8
+fisnik,asllani,08/08/2002,nan,nan,4.0,tsg hoffenheim,attack,0.5
+jonas,urbig,08/08/2003,nan,nan,nan,1. fc köln,goal,0.5
+jamie,bynoe-gittens,08/08/2004,nan,nan,nan,borussia dortmund,attack,1.7
+alexander,hack,08/09/1993,11.0,36.0,134.0,1. fsv mainz 05,defense,2.2
+lucas,alario,08/10/1992,66.0,78.0,84.0,eintracht frankfurt,attack,3.6
+dejan,ljubicic,08/10/1997,nan,nan,157.0,1. fc köln,midfield,2.6
+jens,stage,08/11/1996,nan,nan,nan,werder bremen,midfield,1.8
+maximilian,eggestein,08/12/1996,31.0,35.0,122.0,sc freiburg,midfield,2.2
+andreas,voglsammer,09/01/1992,nan,26.0,65.0,1. fc union berlin,attack,1.5
+grischa,prömel,09/01/1995,7.0,67.0,163.0,tsg hoffenheim,midfield,2.8
+chris,führich,09/01/1998,nan,nan,88.0,vfb stuttgart,midfield,1.7
+piero,hincapie,09/01/2002,nan,nan,114.0,bayer 04 leverkusen,defense,2.2
+ricardo,pepi,09/01/2003,nan,nan,-4.0,fc augsburg,attack,1.3
+thomas,kastanaras,09/01/2003,nan,nan,nan,vfb stuttgart,attack,0.7
+wataru,endo,09/02/1993,nan,139.0,153.0,vfb stuttgart,midfield,2.8
+niclas,füllkrug,09/02/1993,42.0,33.0,nan,werder bremen,attack,2.2
+sheraldo,becker,09/02/1995,-2.0,53.0,131.0,1. fc union berlin,attack,2.4
+maximilian,bauer,09/02/2000,nan,nan,36.0,fc augsburg,defense,1.3
+mehmet,aydin,09/02/2002,nan,nan,nan,fc schalke 04,midfield,0.8
+nicolas,höfler,09/03/1990,50.0,57.0,186.0,sc freiburg,midfield,3.0
+genki,haraguchi,09/05/1991,nan,nan,80.0,1. fc union berlin,midfield,1.5
+hugo,siquet,09/07/2002,nan,nan,2.0,sc freiburg,defense,1.0
+manuel,riemann,09/09/1988,nan,nan,255.0,vfl bochum,goal,3.6
+felix,uduokhai,09/09/1997,38.0,70.0,18.0,fc augsburg,defense,1.6
+fredrik,jensen,09/09/1997,12.0,10.0,15.0,fc augsburg,midfield,1.0
+kevin,kampl,09/10/1990,57.0,82.0,101.0,rb leipzig,midfield,2.4
+ivan,sunjic,09/10/1996,nan,nan,nan,hertha bsc,midfield,1.6
+tarsis,bonga,10/01/1997,nan,nan,6.0,vfl bochum,attack,0.6
+ansgar,knauff,10/01/2002,nan,8.0,38.0,eintracht frankfurt,midfield,1.8
+eduardo,dos santos haesler,10/02/1999,nan,nan,nan,werder bremen,goal,0.5
+anthony,losilla,10/03/1986,nan,nan,174.0,vfl bochum,midfield,2.4
+alassane,plea,10/03/1993,132.0,48.0,153.0,bor. mönchengladbach,attack,3.8
+sadio,mané,10/04/1992,nan,nan,nan,bayern münchen,attack,8.0
+paul,grave,10/04/2001,nan,nan,nan,vfl bochum,goal,0.5
+ayman,azhil,10/04/2001,nan,nan,nan,bayer 04 leverkusen,midfield,0.5
+ellyes,skhiri,10/05/1995,49.0,68.0,130.0,1. fc köln,midfield,2.6
+dennis,geiger,10/06/1998,27.0,20.0,93.0,tsg hoffenheim,midfield,1.8
+jeffrey,gouweleeuw,10/07/1991,36.0,55.0,86.0,fc augsburg,defense,1.6
+lucas,höler,10/07/1994,76.0,41.0,181.0,sc freiburg,attack,2.8
+jae-sung,lee,10/08/1992,nan,nan,110.0,1. fsv mainz 05,midfield,2.0
+takuma,asano,10/11/1994,nan,nan,70.0,vfl bochum,midfield,1.4
+derry,scherhant,10/11/2002,nan,nan,nan,hertha bsc,attack,0.5
+jeremie,frimpong,10/12/2000,nan,4.0,137.0,bayer 04 leverkusen,defense,2.5
+leroy,sané,11/01/1996,nan,82.0,163.0,bayern münchen,midfield,5.5
+diadie,samassekou,11/01/1996,14.0,84.0,89.0,tsg hoffenheim,midfield,2.0
+jonathan,tah,11/02/1996,55.0,81.0,201.0,bayer 04 leverkusen,defense,3.2
+filip,uremovic,11/02/1997,nan,nan,nan,hertha bsc,defense,1.6
+felix,götze,11/02/1998,nan,nan,nan,fc augsburg,midfield,0.8
+marius,lode,11/03/1993,nan,nan,nan,fc schalke 04,defense,1.2
+deyovaisio,zeefuik,11/03/1998,nan,14.0,nan,hertha bsc,defense,1.0
+suat,serdar,11/04/1997,92.0,-18.0,79.0,hertha bsc,midfield,1.8
+philipp,lienhart,11/07/1996,57.0,103.0,203.0,sc freiburg,defense,3.2
+jonathan,burkardt,11/07/2000,16.0,48.0,200.0,1. fsv mainz 05,attack,3.2
+darko,churlinov,11/07/2000,nan,13.0,nan,vfb stuttgart,midfield,1.5
+sebastian,rode,11/10/1990,83.0,69.0,71.0,eintracht frankfurt,midfield,2.0
+konstantinos,mavropanos,11/12/1997,nan,8.0,144.0,vfb stuttgart,defense,2.3
+josha,vagnoman,11/12/2000,nan,nan,nan,vfb stuttgart,defense,1.6
+patrick,herrmann,12/02/1991,116.0,25.0,57.0,bor. mönchengladbach,attack,1.8
+manuel,gulde,12/02/1991,37.0,74.0,80.0,sc freiburg,defense,1.8
+julian,chabot,12/02/1998,nan,nan,2.0,1. fc köln,defense,1.2
+marton,dardai,12/02/2002,nan,38.0,7.0,hertha bsc,defense,1.2
+timo,horn,12/05/1993,127.0,174.0,87.0,1. fc köln,goal,1.0
+hiroki,ito,12/05/1999,nan,nan,92.0,vfb stuttgart,defense,1.6
+kingsley,schindler,12/07/1993,-4.0,nan,43.0,1. fc köln,midfield,1.2
+michael,zetterer,12/07/1995,nan,nan,nan,werder bremen,goal,0.8
+matthijs,de ligt,12/08/1999,nan,nan,nan,bayern münchen,defense,4.2
+rodrigo,zalazar,12/08/1999,nan,nan,nan,fc schalke 04,midfield,1.8
+thomas,meunier,12/09/1991,nan,18.0,92.0,borussia dortmund,defense,2.5
+jakob,busk,12/09/1993,nan,nan,nan,1. fc union berlin,goal,0.5
+jens,petter hauge,12/10/1999,nan,nan,52.0,eintracht frankfurt,midfield,1.7
+kilian,fischer,12/10/2000,nan,nan,nan,vfl wolfsburg,defense,1.2
+laurenz,dehl,12/12/2001,nan,nan,nan,1. fc union berlin,midfield,0.5
+yannick,gerhardt,13/03/1994,23.0,72.0,74.0,vfl wolfsburg,midfield,1.8
+daniel,klein,13/03/2001,nan,nan,nan,fc augsburg,goal,0.5
+alexander,meyer,13/04/1991,nan,nan,nan,borussia dortmund,goal,0.8
+andras,schäfer,13/04/1999,nan,nan,23.0,1. fc union berlin,midfield,1.4
+mark,flekken,13/06/1993,62.0,18.0,237.0,sc freiburg,goal,3.4
+kingsley,coman,13/06/1996,107.0,146.0,132.0,bayern münchen,midfield,6.5
+danny,da costa,13/07/1993,44.0,27.0,12.0,1. fsv mainz 05,defense,1.4
+andré,hahn,13/08/1990,-8.0,65.0,90.0,fc augsburg,midfield,1.6
+thomas,müller,13/09/1989,197.0,224.0,250.0,bayern münchen,midfield,7.5
+joel,pohjanpalo,13/09/1994,nan,42.0,nan,bayer 04 leverkusen,attack,1.4
+niklas,klinger,13/10/1995,nan,nan,nan,vfl wolfsburg,goal,0.5
+pavao,pervan,13/11/1987,41.0,15.0,33.0,vfl wolfsburg,goal,0.8
+andrey,lunev,13/11/1991,nan,nan,6.0,bayer 04 leverkusen,goal,0.8
+florian,müller,13/11/1997,65.0,149.0,165.0,vfb stuttgart,goal,2.4
+marvin,friedrich,13/12/1995,85.0,171.0,75.0,bor. mönchengladbach,defense,2.5
+nicolai,rapp,13/12/1996,nan,nan,nan,werder bremen,midfield,1.3
+eren,dinkci,13/12/2001,nan,0.0,nan,werder bremen,attack,0.8
+bartol,franjic,14/01/2000,nan,nan,nan,vfl wolfsburg,midfield,1.7
+lucas,hernandez,14/02/1996,20.0,66.0,110.0,bayern münchen,defense,3.0
+myziane,maolida,14/02/1999,nan,nan,4.0,hertha bsc,attack,1.3
+nick,woltemade,14/02/2002,nan,6.0,nan,werder bremen,attack,0.6
+henning,matriciani,14/03/2000,nan,nan,nan,fc schalke 04,defense,1.0
+anthony,modeste,14/04/1988,10.0,nan,281.0,1. fc köln,attack,4.0
+jiri,pavlenka,14/04/1992,124.0,144.0,nan,werder bremen,goal,2.6
+niklas,stark,14/04/1995,12.0,80.0,88.0,werder bremen,defense,2.0
+munas,dabbur,14/05/1992,49.0,37.0,88.0,tsg hoffenheim,attack,1.8
+stefan,posch,14/05/1997,60.0,30.0,110.0,tsg hoffenheim,defense,1.8
+kristijan,jakic,14/05/1997,nan,nan,82.0,eintracht frankfurt,midfield,1.7
+mehdi,loune,14/05/2004,nan,nan,nan,eintracht frankfurt,midfield,0.5
+jonas,hofmann,14/07/1992,85.0,119.0,184.0,bor. mönchengladbach,midfield,4.0
+serge,gnabry,14/07/1995,145.0,126.0,210.0,bayern münchen,midfield,6.0
+robert,wagner,14/07/2003,nan,nan,nan,sc freiburg,midfield,0.5
+soumaila,coulibaly,14/10/2003,nan,nan,nan,borussia dortmund,defense,0.7
+christopher,nkunku,14/11/1997,132.0,135.0,337.0,rb leipzig,attack,8.5
+noussair,mazraoui,14/11/1997,nan,nan,nan,bayern münchen,defense,2.8
+lukas,nmecha,14/12/1998,nan,nan,97.0,vfl wolfsburg,attack,2.5
+daniel,caligiuri,15/01/1988,41.0,58.0,80.0,fc augsburg,midfield,1.6
+marcin,kaminski,15/01/1992,nan,-3.0,nan,fc schalke 04,defense,1.6
+niklas,dorsch,15/01/1998,nan,nan,109.0,fc augsburg,midfield,1.8
+yannik,keitel,15/02/2000,7.0,16.0,34.0,sc freiburg,midfield,1.2
+ibrahima,cissé,15/02/2001,nan,nan,nan,fc schalke 04,defense,0.6
+levin,öztunali,15/03/1996,55.0,36.0,26.0,1. fc union berlin,midfield,1.3
+jonjoe,kenny,15/03/1997,46.0,nan,nan,hertha bsc,defense,1.5
+clinton,mola,15/03/2001,nan,nan,0.0,vfb stuttgart,defense,0.7
+tjark,ernst,15/03/2003,nan,nan,nan,hertha bsc,goal,0.6
+edimilson,fernandes,15/04/1996,-15.0,18.0,nan,1. fsv mainz 05,midfield,1.0
+luca,netz,15/05/2003,nan,6.0,68.0,bor. mönchengladbach,defense,1.6
+sven,michel,15/07/1990,37.0,nan,46.0,1. fc union berlin,attack,1.8
+sebastian,andersson,15/07/1991,94.0,16.0,56.0,1. fc köln,attack,1.5
+nan,nan,15/07/2000,nan,nan,nan,bayer 04 leverkusen,attack,2.2
+dominique,heintz,15/08/1993,72.0,31.0,26.0,1. fc union berlin,defense,1.5
+rafael,santos borré,15/09/1995,nan,nan,107.0,eintracht frankfurt,attack,2.4
+anton,stach,15/11/1998,nan,nan,142.0,1. fsv mainz 05,midfield,2.5
+florian,neuhaus,16/03/1997,114.0,118.0,104.0,bor. mönchengladbach,midfield,2.6
+marco,friedl,16/03/1998,9.0,34.0,nan,werder bremen,defense,2.0
+lukas,ullrich,16/03/2004,nan,nan,nan,hertha bsc,defense,0.5
+ramy,bensebaini,16/04/1995,106.0,53.0,69.0,bor. mönchengladbach,defense,2.3
+hannes,wolf,16/04/1999,5.0,17.0,nan,bor. mönchengladbach,midfield,1.5
+mio,backhaus,16/04/2004,nan,nan,nan,werder bremen,goal,0.5
+ryan,gravenberch,16/05/2002,nan,nan,nan,bayern münchen,midfield,3.5
+kiliann,sildillia,16/05/2002,nan,nan,16.0,sc freiburg,defense,0.7
+ritsu,doan,16/06/1998,nan,86.0,nan,sc freiburg,midfield,2.2
+tiago,tomas,16/06/2002,nan,nan,64.0,vfb stuttgart,attack,2.6
+mats,hummels,16/12/1988,154.0,139.0,115.0,borussia dortmund,defense,3.4
+amos,pieper,17/01/1998,nan,71.0,96.0,werder bremen,defense,1.8
+cedric,brunner,17/02/1994,nan,38.0,117.0,fc schalke 04,defense,1.7
+niklas,tauer,17/02/2001,nan,5.0,20.0,1. fsv mainz 05,defense,1.0
+karim,onisiwo,17/03/1992,53.0,63.0,162.0,1. fsv mainz 05,attack,2.6
+marcel,sabitzer,17/03/1994,182.0,154.0,43.0,bayern münchen,midfield,3.2
+nahuel,noll,17/03/2003,nan,nan,nan,tsg hoffenheim,goal,0.5
+charles,aranguiz,17/04/1989,84.0,17.0,126.0,bayer 04 leverkusen,midfield,2.5
+enzo,millot,17/07/2002,nan,nan,13.0,vfb stuttgart,midfield,0.6
+hrvoje,smolcic,17/08/2000,nan,nan,nan,eintracht frankfurt,defense,1.5
+maurice,malone,17/08/2000,nan,nan,nan,fc augsburg,attack,0.7
+benno,schmitz,17/11/1994,-5.0,9.0,156.0,1. fc köln,defense,2.3
+julian,ryerson,17/11/1997,12.0,37.0,94.0,1. fc union berlin,defense,1.8
+yann,sommer,17/12/1988,175.0,133.0,257.0,bor. mönchengladbach,goal,4.0
+makoto,hasebe,18/01/1984,26.0,75.0,60.0,eintracht frankfurt,defense,1.7
+merveille,papela,18/01/2001,nan,1.0,8.0,1. fsv mainz 05,midfield,0.5
+karim,adeyemi,18/01/2002,nan,nan,nan,borussia dortmund,attack,4.2
+tanguy,coulibaly,18/02/2001,nan,29.0,35.0,vfb stuttgart,midfield,1.2
+maximilian,mittelstädt,18/03/1997,30.0,-5.0,47.0,hertha bsc,defense,1.2
+orel,mangala,18/03/1998,nan,64.0,90.0,vfb stuttgart,midfield,1.8
+adrian,fein,18/03/1999,nan,nan,nan,bayern münchen,midfield,0.8
+michael,gregoritsch,18/04/1994,-32.0,19.0,112.0,sc freiburg,attack,2.2
+ali,akman,18/04/2002,nan,nan,nan,eintracht frankfurt,attack,0.7
+maxim,leitsch,18/05/1998,nan,nan,85.0,1. fsv mainz 05,defense,1.8
+amine,harit,18/06/1997,88.0,-28.0,nan,fc schalke 04,midfield,2.0
+faride,alidou,18/07/2001,nan,nan,nan,eintracht frankfurt,attack,1.4
+jan,olschowsky,18/11/2001,nan,nan,nan,bor. mönchengladbach,goal,0.5
+justin,che,18/11/2003,nan,nan,4.0,tsg hoffenheim,defense,1.0
+matthias,ginter,19/01/1994,152.0,148.0,111.0,sc freiburg,defense,2.8
+donyell,malen,19/01/1999,nan,nan,104.0,borussia dortmund,attack,3.5
+ilaix,moriba,19/01/2003,nan,nan,nan,rb leipzig,midfield,1.5
+christoph,kramer,19/02/1991,67.0,58.0,30.0,bor. mönchengladbach,midfield,1.7
+max,kruse,19/03/1988,nan,102.0,195.0,vfl wolfsburg,attack,3.4
+kevin,mbabu,19/04/1995,57.0,60.0,41.0,vfl wolfsburg,defense,1.7
+kevin,akpoguma,19/04/1995,2.0,25.0,90.0,tsg hoffenheim,defense,1.6
+carlos,gruezo,19/04/1995,12.0,-7.0,24.0,fc augsburg,midfield,1.0
+micky,van de ven,19/04/2001,nan,nan,21.0,vfl wolfsburg,defense,1.2
+luca,waldschmidt,19/05/1996,54.0,nan,11.0,vfl wolfsburg,attack,1.8
+alex,kral,19/05/1998,nan,nan,nan,fc schalke 04,midfield,1.7
+louis,jordan beyer,19/05/2000,nan,2.0,63.0,bor. mönchengladbach,defense,1.7
+andrej,kramaric,19/06/1991,126.0,226.0,181.0,tsg hoffenheim,attack,4.8
+kimberly,ezekwem,19/06/2001,nan,nan,nan,sc freiburg,defense,0.6
+mohammed,tolba,19/07/2004,nan,nan,nan,vfl bochum,defense,0.5
+josuha,guilavogui,19/09/1990,45.0,48.0,nan,vfl wolfsburg,midfield,1.7
+jacob,bruun larsen,19/09/1998,0.0,nan,52.0,tsg hoffenheim,attack,1.4
+diant,ramaj,19/09/2001,nan,nan,2.0,eintracht frankfurt,goal,0.8
+florent,mollet,19/11/1991,nan,nan,nan,fc schalke 04,midfield,2.2
+leonardo,bittencourt,19/12/1993,67.0,29.0,nan,werder bremen,midfield,1.7
+davie,selke,20/01/1995,-11.0,4.0,38.0,hertha bsc,attack,1.6
+pascal,stenzel,20/03/1996,nan,-1.0,28.0,vfb stuttgart,defense,1.3
+georginio,rutter,20/04/2002,nan,4.0,139.0,tsg hoffenheim,attack,3.0
+robert,skov,20/05/1996,76.0,17.0,34.0,tsg hoffenheim,midfield,1.5
+mitchel,bakker,20/06/2000,nan,nan,85.0,bayer 04 leverkusen,defense,1.8
+timo,hübers,20/07/1996,nan,nan,122.0,1. fc köln,defense,2.4
+waldemar,anton,20/07/1996,nan,62.0,119.0,vfb stuttgart,defense,2.0
+angelo,fulgini,20/08/1996,nan,nan,nan,1. fsv mainz 05,midfield,1.8
+evan,ndicka,20/08/1999,32.0,74.0,169.0,eintracht frankfurt,defense,2.6
+lilian,egloff,20/08/2002,nan,2.0,8.0,vfb stuttgart,midfield,0.5
+dong-gyeong,lee,20/09/1997,nan,nan,nan,fc schalke 04,midfield,0.7
+woo-yeong,jeong,20/09/1999,nan,45.0,108.0,sc freiburg,midfield,2.0
+noah,weißhaupt,20/09/2001,nan,nan,22.0,sc freiburg,midfield,1.0
+youssoufa,moukoko,20/11/2004,nan,25.0,36.0,borussia dortmund,attack,1.7
+rick,van drongelen,20/12/1998,nan,nan,nan,1. fc union berlin,defense,1.0
+mathias,olesen,21/03/2001,nan,nan,nan,1. fc köln,midfield,0.5
+lasse,günther,21/03/2003,nan,nan,6.0,fc augsburg,midfield,0.6
+mitchell,weiser,21/04/1994,5.0,15.0,nan,werder bremen,defense,1.2
+jonas,nickisch,21/05/2004,nan,nan,nan,rb leipzig,goal,0.5
+jacek,goralski,21/09/1992,nan,nan,nan,vfl bochum,midfield,1.5
+moritz,nicolas,21/10/1997,-2.0,nan,nan,bor. mönchengladbach,goal,0.5
+göktan,gürpüz,22/01/2003,nan,nan,nan,borussia dortmund,midfield,0.5
+nikolas,nartey,22/02/2000,nan,nan,14.0,vfb stuttgart,midfield,1.3
+tobias,sippel,22/03/1988,nan,23.0,2.0,bor. mönchengladbach,goal,0.7
+sebastiaan,bornauw,22/03/1999,107.0,65.0,84.0,vfl wolfsburg,defense,2.2
+oliver,christensen,22/03/1999,nan,nan,nan,hertha bsc,goal,2.0
+nan,nan,22/04/1997,nan,nan,nan,1. fsv mainz 05,defense,1.8
+david,raum,22/04/1998,nan,nan,209.0,tsg hoffenheim,defense,4.0
+robin,knoche,22/05/1992,67.0,75.0,130.0,1. fc union berlin,defense,2.0
+roland,sallai,22/05/1997,30.0,104.0,127.0,sc freiburg,midfield,2.6
+joshua,zirkzee,22/05/2001,29.0,nan,nan,bayern münchen,attack,1.5
+antonis,aidonis,22/05/2001,nan,nan,nan,vfb stuttgart,defense,0.5
+jonathan,schmid,22/06/1990,83.0,60.0,33.0,sc freiburg,defense,1.7
+tom,krauß,22/06/2001,1.0,nan,nan,fc schalke 04,midfield,1.6
+paul,jaeckel,22/07/1998,nan,nan,74.0,1. fc union berlin,defense,1.5
+jens,grahl,22/09/1988,nan,nan,6.0,eintracht frankfurt,goal,0.5
+robert,andrich,22/09/1994,61.0,105.0,152.0,bayer 04 leverkusen,midfield,2.8
+christopher,lenz,22/09/1994,29.0,65.0,35.0,eintracht frankfurt,defense,1.5
+saidy,janko,22/10/1995,nan,nan,nan,vfl bochum,defense,1.4
+michael,esser,22/11/1987,nan,nan,22.0,vfl bochum,goal,0.8
+erhan,masovic,22/11/1998,nan,nan,72.0,vfl bochum,defense,1.5
+raphael,guerreiro,22/12/1993,103.0,119.0,77.0,borussia dortmund,defense,2.8
+jerome,onguené,22/12/1997,nan,nan,nan,eintracht frankfurt,defense,1.8
+tymoteusz,puchacz,23/01/1999,nan,nan,nan,1. fc union berlin,defense,1.3
+benjamin,henrichs,23/02/1997,nan,13.0,84.0,rb leipzig,defense,2.3
+juan,josé perea,23/02/2000,nan,nan,nan,vfb stuttgart,attack,1.5
+nan,nan,23/03/1997,nan,nan,nan,fc augsburg,defense,1.8
+sargis,adamyan,23/05/1993,51.0,48.0,nan,1. fc köln,attack,1.7
+josip,brekalo,23/06/1998,26.0,77.0,nan,vfl wolfsburg,midfield,1.8
+linton,maina,23/06/1999,nan,nan,nan,1. fc köln,midfield,1.4
+kevin,vogt,23/09/1991,60.0,53.0,148.0,tsg hoffenheim,defense,2.6
+emil,forsberg,23/10/1991,62.0,111.0,162.0,rb leipzig,midfield,3.8
+paul,wanner,23/12/2005,nan,nan,8.0,bayern münchen,midfield,0.7
+patrik,schick,24/01/1996,99.0,58.0,258.0,bayer 04 leverkusen,attack,6.5
+hugo,novoa,24/01/2003,nan,nan,21.0,rb leipzig,attack,1.0
+christopher,trimmel,24/02/1987,61.0,89.0,118.0,1. fc union berlin,defense,2.2
+marlon,mustapha,24/05/2001,nan,nan,nan,1. fsv mainz 05,attack,0.8
+yvandro,borges sanches,24/05/2004,nan,nan,nan,bor. mönchengladbach,attack,0.5
+maya,yoshida,24/08/1988,nan,nan,nan,fc schalke 04,defense,1.9
+mark,uth,24/08/1991,63.0,-8.0,183.0,1. fc köln,midfield,3.0
+stefan,bell,24/08/1991,nan,52.0,155.0,1. fsv mainz 05,defense,2.3
+tobias,mohr,24/08/1995,nan,nan,nan,fc schalke 04,midfield,1.7
+dodi,lukebakio,24/09/1997,28.0,22.0,42.0,hertha bsc,attack,1.6
+cristian,gamboa,24/10/1989,nan,nan,115.0,vfl bochum,defense,2.2
+florian,niederlechner,24/10/1990,136.0,20.0,68.0,fc augsburg,attack,1.7
+florian,kainz,24/10/1992,77.0,6.0,157.0,1. fc köln,midfield,2.4
+lukas,hradecky,24/11/1989,193.0,140.0,215.0,bayer 04 leverkusen,goal,3.2
+marco,richter,24/11/1997,46.0,41.0,78.0,hertha bsc,attack,1.7
+lennart,grill,25/01/1999,nan,22.0,8.0,1. fc union berlin,goal,0.7
+santiago,ascacibar,25/02/1997,8.0,27.0,45.0,hertha bsc,midfield,1.4
+gerrit,holtmann,25/03/1995,-2.0,nan,121.0,vfl bochum,midfield,2.0
+ermedin,demirovic,25/03/1998,nan,83.0,75.0,fc augsburg,attack,1.7
+ozan,kabak,25/03/2000,106.0,nan,nan,fc schalke 04,defense,2.0
+pavel,kaderabek,25/04/1992,70.0,55.0,70.0,tsg hoffenheim,defense,1.8
+marvin,schwäbe,25/04/1995,nan,nan,171.0,1. fc köln,goal,3.4
+kingsley,ehizibue,25/05/1995,18.0,-7.0,35.0,1. fc köln,defense,1.4
+noah,atubolu,25/05/2002,nan,nan,nan,sc freiburg,goal,0.5
+koen,casteels,25/06/1992,125.0,183.0,190.0,vfl wolfsburg,goal,3.2
+torben,müsel,25/07/1999,1.0,nan,nan,bor. mönchengladbach,midfield,0.5
+adam,hlozek,25/07/2002,nan,nan,nan,bayer 04 leverkusen,attack,2.4
+dominik,szoboszlai,25/10/2000,nan,nan,121.0,rb leipzig,midfield,2.8
+marvin,plattenhardt,26/01/1992,24.0,30.0,58.0,hertha bsc,defense,1.5
+jamie,leweling,26/02/2001,nan,nan,111.0,1. fc union berlin,attack,1.8
+bright,arrey-mbi,26/03/2003,nan,nan,nan,1. fc köln,defense,0.6
+jordan,siebatcheu,26/04/1996,nan,nan,nan,1. fc union berlin,attack,2.6
+dominick,drexler,26/05/1990,51.0,6.0,nan,fc schalke 04,midfield,1.5
+jan,thielmann,26/05/2002,-8.0,17.0,87.0,1. fc köln,midfield,1.7
+simon,zoller,26/06/1991,nan,nan,44.0,vfl bochum,attack,1.5
+robert,kwasigroch,26/06/2004,nan,nan,nan,hertha bsc,goal,0.5
+lars,stindl,26/08/1988,130.0,178.0,98.0,bor. mönchengladbach,midfield,3.5
+tomas,koubek,26/08/1992,57.0,nan,nan,fc augsburg,goal,0.7
+kerim,calhanoglu,26/08/2002,nan,-16.0,nan,fc schalke 04,midfield,0.7
+niko,gießelmann,26/09/1991,1.0,13.0,127.0,1. fc union berlin,defense,2.2
+milos,veljkovic,26/09/1995,38.0,22.0,nan,werder bremen,defense,1.7
+rafal,gikiewicz,26/10/1987,159.0,179.0,204.0,fc augsburg,goal,2.8
+rani,khedira,27/01/1994,24.0,21.0,115.0,1. fc union berlin,midfield,1.7
+ko,itakura,27/01/1997,nan,nan,nan,bor. mönchengladbach,midfield,2.2
+romano,schmid,27/01/2000,nan,11.0,nan,werder bremen,midfield,1.7
+linus,gechter,27/02/2004,nan,nan,25.0,hertha bsc,defense,1.0
+manuel,neuer,27/03/1986,191.0,182.0,210.0,bayern münchen,goal,4.5
+finn,dahmen,27/03/1998,nan,16.0,8.0,1. fsv mainz 05,goal,0.8
+jonas,hector,27/05/1990,84.0,70.0,171.0,1. fc köln,defense,2.8
+maximilian,arnold,27/05/1994,128.0,138.0,135.0,vfl wolfsburg,midfield,2.6
+marius,wolf,27/05/1995,-2.0,24.0,87.0,borussia dortmund,midfield,1.8
+konrad,laimer,27/05/1997,125.0,-2.0,125.0,rb leipzig,midfield,3.0
+niklas,hauptmann,27/06/1996,nan,nan,nan,1. fc köln,midfield,0.8
+lasse,rieß,27/07/2001,nan,nan,nan,1. fsv mainz 05,goal,0.5
+stefan,lainer,27/08/1992,100.0,89.0,75.0,bor. mönchengladbach,defense,2.3
+kevin,stöger,27/08/1993,44.0,33.0,53.0,vfl bochum,midfield,1.6
+ralf,fährmann,27/09/1988,nan,93.0,nan,fc schalke 04,goal,1.0
+marcel,halstenberg,27/09/1991,96.0,74.0,37.0,rb leipzig,defense,2.6
+felix,agu,27/09/1999,nan,22.0,nan,werder bremen,defense,1.6
+dayot,upamecano,27/10/1998,87.0,99.0,125.0,bayern münchen,defense,3.4
+justin,heekeren,27/11/2000,nan,nan,nan,fc schalke 04,goal,0.6
+marc,oliver kempf,28/01/1995,nan,67.0,75.0,hertha bsc,defense,1.8
+sebastian,rudy,28/02/1990,46.0,43.0,63.0,tsg hoffenheim,midfield,1.5
+christian,günter,28/02/1993,128.0,134.0,216.0,sc freiburg,defense,3.4
+benjamin,pavard,28/03/1996,123.0,20.0,77.0,bayern münchen,defense,2.6
+almamy,toure,28/04/1996,27.0,25.0,8.0,eintracht frankfurt,defense,1.4
+keven,schlotterbeck,28/04/1997,56.0,30.0,26.0,sc freiburg,defense,1.5
+melayro,bogarde,28/05/2002,nan,4.0,nan,tsg hoffenheim,defense,0.7
+tom,bischof,28/06/2005,nan,nan,2.0,tsg hoffenheim,midfield,0.6
+niklas,lomb,28/07/1993,nan,-1.0,nan,bayer 04 leverkusen,goal,0.5
+xaver,schlager,28/09/1997,66.0,123.0,64.0,rb leipzig,midfield,3.0
+robin,zentner,28/10/1994,97.0,133.0,225.0,1. fsv mainz 05,goal,3.0
+dedryck,boyata,28/11/1990,105.0,73.0,69.0,hertha bsc,defense,2.0
+luca,philipp,28/11/2000,nan,nan,nan,tsg hoffenheim,goal,0.5
+philipp,schulze,29/01/2003,nan,nan,nan,vfl wolfsburg,goal,0.5
+jesper,lindström,29/02/2000,nan,nan,130.0,eintracht frankfurt,midfield,2.5
+timothy,chandler,29/03/1990,38.0,7.0,28.0,eintracht frankfurt,defense,1.3
+thorgan,hazard,29/03/1993,110.0,30.0,65.0,borussia dortmund,attack,2.8
+marius,bülter,29/03/1993,58.0,16.0,nan,fc schalke 04,attack,1.7
+paul,seguin,29/03/1995,nan,nan,37.0,1. fc union berlin,midfield,1.4
+naouirou,ahamada,29/03/2002,nan,-11.0,4.0,vfb stuttgart,midfield,0.5
+lucas,tousart,29/04/1997,nan,36.0,50.0,hertha bsc,midfield,1.6
+eric,martel,29/04/2002,nan,nan,nan,1. fc köln,midfield,1.3
+ben,bobzien,29/04/2003,nan,nan,nan,1. fsv mainz 05,attack,0.5
+felix,passlack,29/05/1998,nan,15.0,28.0,borussia dortmund,defense,0.6
+rocco,reitz,29/05/2002,nan,5.0,nan,bor. mönchengladbach,midfield,0.5
+eniss,shabani,29/05/2003,nan,nan,nan,1. fsv mainz 05,midfield,0.5
+silvere,ganvoula,29/06/1996,nan,nan,nan,vfl bochum,attack,1.0
+jude,bellingham,29/06/2003,nan,84.0,210.0,borussia dortmund,midfield,5.5
+rune,jarstein,29/09/1984,111.0,32.0,nan,hertha bsc,goal,0.7
+tom,rothe,29/10/2004,nan,nan,nan,borussia dortmund,defense,0.9
+philipp,hofmann,30/03/1993,nan,nan,nan,vfl bochum,attack,2.0
+victor,palsson,30/04/1991,nan,nan,nan,fc schalke 04,midfield,1.5
+patrick,wimmer,30/05/2001,nan,nan,142.0,vfl wolfsburg,midfield,2.4
+danilho,doekhi,30/06/1998,nan,nan,nan,1. fc union berlin,defense,1.8
+lukas,kübler,30/08/1992,8.0,17.0,108.0,sc freiburg,defense,1.8
+nico,elvedi,30/09/1996,103.0,85.0,57.0,bor. mönchengladbach,defense,2.0
+thomas,ouwejan,30/09/1996,nan,nan,nan,fc schalke 04,defense,1.8
+peter,pekarik,30/10/1986,30.0,74.0,66.0,hertha bsc,defense,1.3
+dominik,kohr,31/01/1994,17.0,50.0,80.0,1. fsv mainz 05,midfield,1.6
+amadou,haidara,31/01/1998,20.0,91.0,93.0,rb leipzig,midfield,2.4
+nishan,burkart,31/01/2000,nan,nan,nan,sc freiburg,attack,0.5
+laurin,ulrich,31/01/2005,nan,nan,nan,vfb stuttgart,midfield,0.5
+vasilios,lampropoulos,31/03/1990,nan,nan,20.0,vfl bochum,defense,1.2
+marco,reus,31/05/1989,88.0,134.0,217.0,borussia dortmund,midfield,6.5
+aaron,zehnter,31/10/2004,nan,nan,nan,fc augsburg,defense,0.5
+joe,scally,31/12/2002,nan,nan,71.0,bor. mönchengladbach,defense,1.4
+abass,issah,26/09/1998,nan,nan,nan,1. fsv mainz 05,midfield,0.8
+ademola,lookman,20/10/1997,-6.0,nan,nan,rb leipzig,attack,1.3
+amine,adli,10/05/2000,nan,nan,64.0,bayer 04 leverkusen,attack,1.7
+atakan,karazor,13/10/1996,nan,11.0,80.0,vfb stuttgart,midfield,0.8
+aymen,barkok,21/05/1998,-2.0,36.0,2.0,1. fsv mainz 05,midfield,1.2
+bartosz,bialek,11/11/2001,nan,26.0,26.0,vfl wolfsburg,attack,1.3
+borna,sosa,21/01/1998,nan,82.0,134.0,vfb stuttgart,defense,2.4
+bouna,sarr,31/01/1992,nan,-2.0,10.0,bayern münchen,defense,1.2
+aurelio,buta,10/02/1997,nan,nan,nan,eintracht frankfurt,defense,1.5
+chidera,ejuke,02/01/1998,nan,nan,nan,hertha bsc,attack,1.7
+chris,richards,28/03/2000,nan,33.0,73.0,bayern münchen,defense,1.7
+daniel-kofi,kyereh,08/03/1996,nan,nan,nan,sc freiburg,midfield,2.0
+danilo,soares,29/10/1991,nan,nan,139.0,vfl bochum,defense,2.3
+dimitrios,limnios,27/05/1998,nan,4.0,nan,1. fc köln,midfield,1.0
+diogo,leite,23/01/1999,nan,nan,nan,1. fc union berlin,defense,1.8
+dzenan,pejcinovic,15/02/2005,nan,nan,nan,vfl wolfsburg,midfield,0.6
+emre,can,12/01/1994,58.0,67.0,130.0,borussia dortmund,midfield,2.8
+eric,maxim choupo-moting,23/03/1989,nan,25.0,56.0,bayern münchen,attack,2.2
+ermin,bicakcic,24/01/1990,49.0,15.0,2.0,tsg hoffenheim,defense,1.3
+fabio,schneider,31/07/2002,nan,nan,nan,1. fc union berlin,midfield,0.5
+fabrice,hartmann,02/03/2001,nan,nan,nan,rb leipzig,attack,0.5
+felix,nmecha,10/10/2000,nan,nan,29.0,vfl wolfsburg,midfield,0.8
+florian,schock,22/05/2001,nan,nan,nan,vfb stuttgart,goal,0.5
+florian,wirtz,03/05/2003,18.0,90.0,205.0,bayer 04 leverkusen,midfield,5.0
+fredrik,andré björkan,21/08/1998,nan,nan,4.0,hertha bsc,defense,1.0
+fynn,otto,08/03/2002,nan,nan,nan,eintracht frankfurt,defense,0.5
+giovanni,reyna,13/11/2002,20.0,90.0,43.0,borussia dortmund,midfield,3.5
+ihlas,bebou,23/04/1994,44.0,119.0,86.0,tsg hoffenheim,attack,2.2
+ilay,elmkies,10/03/2000,1.0,nan,nan,tsg hoffenheim,midfield,0.8
+jacob,italiano,30/07/2001,nan,nan,nan,bor. mönchengladbach,attack,0.5
+jamal,musiala,26/02/2003,nan,78.0,160.0,bayern münchen,midfield,4.2
+jan,schröder,15/04/2003,nan,nan,nan,eintracht frankfurt,defense,0.5
+jannik,horz,14/04/2003,nan,nan,nan,eintracht frankfurt,goal,0.5
+jean-manuel,mbom,24/02/2000,nan,-9.0,nan,werder bremen,midfield,1.3
+jessic,ngankam,20/07/2000,nan,25.0,27.0,hertha bsc,attack,1.3
+johannes,schenk,13/01/2003,nan,nan,nan,bayern münchen,goal,0.5
+joscha,wosz,20/07/2002,nan,2.0,nan,rb leipzig,midfield,0.5
+joshua,eze,20/03/2003,nan,nan,nan,bayer 04 leverkusen,midfield,0.5
+josko,gvardiol,23/01/2002,nan,nan,167.0,rb leipzig,defense,3.4
+kelian,nsona,11/05/2002,nan,nan,nan,hertha bsc,attack,0.6
+kevin,schade,27/11/2001,nan,nan,88.0,sc freiburg,attack,1.8
+kouadio,koné,17/05/2001,nan,nan,111.0,bor. mönchengladbach,midfield,2.2
+leo,greiml,03/07/2001,nan,nan,nan,fc schalke 04,defense,1.2
+leon,goretzka,06/02/1995,136.0,139.0,115.0,bayern münchen,midfield,5.8
+lino,kasten,17/01/2001,nan,nan,nan,vfl wolfsburg,goal,0.5
+luca,unbehaun,27/02/2001,nan,nan,nan,borussia dortmund,goal,0.5
+mamadou,doucouré,21/05/1998,2.0,nan,nan,bor. mönchengladbach,defense,0.5
+manuel,akanji,19/07/1995,33.0,77.0,147.0,borussia dortmund,defense,3.0
+marcel,lotka,25/05/2001,nan,nan,52.0,borussia dortmund,goal,0.7
+marin,pongracic,11/09/1997,29.0,6.0,48.0,vfl wolfsburg,defense,1.5
+mattias,svanberg,05/01/1999,nan,nan,nan,vfl wolfsburg,midfield,2.6
+michael,langer,06/01/1985,nan,11.0,nan,fc schalke 04,goal,0.5
+morten,thorsby,05/05/1996,nan,nan,nan,1. fc union berlin,midfield,1.8
+nadiem,amiri,27/10/1996,51.0,19.0,nan,bayer 04 leverkusen,midfield,1.8
+nico,schulz,01/04/1993,7.0,9.0,34.0,borussia dortmund,defense,1.5
+noah,joel sarenren bazee,21/08/1996,20.0,6.0,32.0,fc augsburg,midfield,0.8
+ömer,beyaz,29/08/2003,nan,nan,8.0,vfb stuttgart,midfield,0.5
+omar,alderete,26/12/1996,nan,17.0,nan,hertha bsc,defense,2.0
+paulo,otavio,23/11/1994,30.0,34.0,33.0,vfl wolfsburg,defense,1.7
+philipp,klement,09/09/1992,nan,20.0,nan,vfb stuttgart,midfield,1.2
+reece,oxford,16/12/1998,2.0,5.0,134.0,fc augsburg,defense,2.0
+ronael,pierre-gabriel,13/06/1998,-13.0,nan,nan,1. fsv mainz 05,defense,1.2
+ruben,vargas,05/08/1998,73.0,58.0,64.0,fc augsburg,midfield,1.6
+salih,özcan,11/01/1998,nan,16.0,187.0,borussia dortmund,midfield,3.2
+sebastien,haller,22/06/1994,nan,nan,nan,borussia dortmund,attack,6.0
+solomon,bonnah,19/08/2003,nan,nan,2.0,rb leipzig,defense,0.5
+steffen,tigges,31/07/1998,nan,0.0,31.0,1. fc köln,attack,1.6
+stevan,jovetic,02/11/1989,nan,nan,92.0,hertha bsc,attack,2.2
+timo,baumgartl,04/03/1996,nan,nan,124.0,1. fc union berlin,defense,2.2
+tobias,strobl,12/05/1990,22.0,10.0,4.0,fc augsburg,midfield,1.0
+wahid,faghir,29/07/2003,nan,nan,19.0,vfb stuttgart,attack,1.0
+yussuf,poulsen,15/06/1994,66.0,79.0,121.0,rb leipzig,attack,3.0

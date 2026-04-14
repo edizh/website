@@ -1,0 +1,554 @@
+first_name,last_name,dob,points_2019,points_2020,points_2021,club,position,price,prediction
+sardar,azmoun,01/01/1995,0.0,0.0,37.0,bayer 04 leverkusen,attack,2.2,17.664524722198465
+mahmoud,dahoud,01/01/1996,15.0,51.0,106.0,borussia dortmund,midfield,2.4,69.78121459131805
+benjamin,goller,01/01/1999,6.0,0.0,0.0,werder bremen,midfield,0.8,1.2461437830727382
+conor,noß,01/01/2001,0.0,0.0,6.0,bor. mönchengladbach,midfield,0.6,2.86451752251867
+dong-jun,lee,01/02/1997,0.0,0.0,0.0,hertha bsc,attack,0.7,0.0
+patrick,osterhage,01/02/2000,0.0,0.0,32.0,vfl bochum,midfield,1.0,15.27742678676624
+maximilian,philipp,01/03/1994,0.0,69.0,38.0,vfl wolfsburg,midfield,2.0,39.86933929498372
+niklas,schmidt,01/03/1998,0.0,0.0,0.0,werder bremen,midfield,1.0,0.0
+sebastian,polter,01/04/1991,8.0,0.0,108.0,fc schalke 04,attack,1.8,53.22284044943304
+philipp,pentke,01/05/1985,31.0,18.0,6.0,tsg hoffenheim,goal,0.8,14.97094315162026
+florian,flick,01/05/2000,0.0,0.0,0.0,fc schalke 04,midfield,1.0,0.0
+krzysztof,piatek,01/07/1995,27.0,34.0,0.0,hertha bsc,attack,1.7,16.31389962547601
+anthony,caci,01/07/1997,0.0,0.0,0.0,1. fsv mainz 05,defense,1.6,0.0
+goncalo,paciencia,01/08/1994,64.0,-6.0,48.0,eintracht frankfurt,attack,1.5,34.31900183851664
+christoph,baumgartner,01/08/1999,107.0,120.0,148.0,tsg hoffenheim,midfield,3.2,130.66777024176287
+mads,pedersen,01/09/1996,0.0,3.0,72.0,fc augsburg,defense,1.4,35.31887961742834
+luca,kilian,01/09/1999,19.0,-2.0,109.0,1. fc köln,defense,1.8,55.35507740734998
+filip,kostic,01/11/1992,139.0,158.0,177.0,eintracht frankfurt,midfield,3.8,163.12485017491213
+nordi,mukiele,01/11/1997,105.0,96.0,87.0,rb leipzig,defense,2.2,93.57243939083111
+elvis,rexhbecaj,01/11/1997,28.0,33.0,76.0,vfl wolfsburg,midfield,1.6,52.49058909215652
+lukas,petkov,01/11/2000,0.0,0.0,0.0,fc augsburg,midfield,0.7,0.0
+nico,schlotterbeck,01/12/1999,13.0,50.0,267.0,borussia dortmund,defense,4.5,145.91549706881
+gabriel,vidovic,01/12/2003,0.0,0.0,6.0,bayern münchen,midfield,0.5,2.86451752251867
+timothy,fosu-mensah,02/01/1998,0.0,11.0,8.0,bayer 04 leverkusen,defense,1.4,7.283144303107312
+maxime,awoudja,02/02/1998,0.0,0.0,0.0,vfb stuttgart,defense,0.5,0.0
+edmond,tapsoba,02/02/1999,57.0,107.0,97.0,bayer 04 leverkusen,defense,2.7,91.8412726035294
+simon,terodde,02/03/1988,42.0,0.0,0.0,fc schalke 04,attack,2.4,8.723006481509168
+fabian,bredlow,02/03/1995,0.0,13.0,22.0,vfb stuttgart,goal,0.7,14.596798087120407
+mateu,morey,02/03/2000,2.0,24.0,0.0,borussia dortmund,defense,1.7,7.9727360386586135
+timo,schlieck,02/03/2006,0.0,0.0,0.0,rb leipzig,goal,0.5,0.0
+janik,haberer,02/04/1994,38.0,-5.0,70.0,1. fc union berlin,midfield,1.7,39.737166143504666
+josip,stanisic,02/04/2000,0.0,0.0,55.0,bayern münchen,defense,1.5,26.258077289754475
+marco,john,02/04/2002,0.0,18.0,8.0,tsg hoffenheim,defense,1.0,9.487372779917337
+janis,blaswich,02/05/1991,0.0,0.0,0.0,rb leipzig,goal,0.7,0.0
+julian,brandt,02/05/1996,94.0,16.0,189.0,borussia dortmund,midfield,3.8,114.79345774590058
+blendi,idrizi,02/05/1998,0.0,0.0,0.0,fc schalke 04,midfield,1.0,0.0
+mesut,kesik,02/05/2003,0.0,0.0,0.0,hertha bsc,midfield,0.5,0.0
+oliver,baumann,02/06/1990,146.0,153.0,231.0,tsg hoffenheim,goal,3.2,188.78489337915784
+alexander,schwolow,02/06/1992,127.0,122.0,114.0,fc schalke 04,goal,2.3,119.21909645586906
+jordi,osei-tutu,02/10/1998,0.0,0.0,0.0,vfl bochum,midfield,1.5,0.0
+alphonso,davies,02/11/2000,116.0,30.0,116.0,bayern münchen,defense,3.4,88.91947871347685
+konstantinos,stafylidis,02/12/1993,6.0,0.0,76.0,vfl bochum,defense,1.6,37.53003240164256
+leandro,barreiro,03/01/2000,21.0,48.0,97.0,1. fsv mainz 05,midfield,1.6,65.78591274340849
+kevin,behrens,03/02/1991,0.0,0.0,67.0,1. fc union berlin,attack,1.6,31.987112334791814
+mohamed,simakan,03/05/2000,0.0,0.0,137.0,rb leipzig,defense,3.0,65.40648343084297
+mario,götze,03/06/1992,23.0,0.0,0.0,eintracht frankfurt,midfield,3.6,4.77688450177883
+lukas,klostermann,03/06/1996,118.0,59.0,105.0,rb leipzig,defense,2.6,93.21504820619174
+kerem,demirbay,03/07/1993,57.0,45.0,126.0,bayer 04 leverkusen,midfield,2.4,86.16327412014752
+kevin,möhwald,03/07/1993,3.0,47.0,26.0,1. fc union berlin,midfield,1.4,27.835800928651246
+denis,huseinbasic,03/07/2001,0.0,0.0,0.0,1. fc köln,midfield,0.7,0.0
+sven,ulreich,03/08/1988,4.0,0.0,22.0,bayern münchen,goal,0.8,11.333993437950282
+florian,dietz,03/08/1998,0.0,0.0,0.0,1. fc köln,attack,0.5,0.0
+niklas,süle,03/09/1995,29.0,39.0,148.0,borussia dortmund,defense,3.6,88.96182868730128
+henri,koudossou,03/09/1999,0.0,0.0,0.0,fc augsburg,midfield,0.5,0.0
+renato,steffen,03/11/1991,82.0,73.0,29.0,vfl wolfsburg,midfield,1.7,53.86275384280553
+anthony,jung,03/11/1991,0.0,0.0,0.0,werder bremen,defense,1.5,0.0
+willi,orban,03/11/1992,48.0,139.0,176.0,rb leipzig,defense,3.5,137.76467734559526
+marcus,ingvartsen,04/01/1996,43.0,24.0,70.0,1. fsv mainz 05,attack,1.6,49.90742298570681
+0,0,04/01/1997,0.0,0.0,0.0,rb leipzig,defense,3.0,0.0
+odilon,kossounou,04/01/2001,0.0,0.0,83.0,bayer 04 leverkusen,defense,1.9,39.62582572817494
+frederik,winther,04/01/2001,0.0,0.0,4.0,fc augsburg,defense,0.7,1.90967834834578
+philipp,förster,04/02/1995,0.0,33.0,43.0,vfl bochum,midfield,1.5,30.92040506396439
+zidan,sertdemir,04/02/2005,0.0,0.0,6.0,bayer 04 leverkusen,midfield,0.7,2.86451752251867
+angelo,stiller,04/04/2001,0.0,0.0,92.0,tsg hoffenheim,midfield,1.7,43.92260201195294
+marcel,wenig,04/05/2004,0.0,0.0,0.0,eintracht frankfurt,midfield,0.6,0.0
+robert,gumny,04/06/1998,0.0,12.0,44.0,fc augsburg,defense,1.2,24.785139220620763
+benjamin,hübner,04/07/1989,75.0,0.0,40.0,tsg hoffenheim,defense,1.8,34.67358077186703
+daley,sinkgraven,04/07/1995,31.0,31.0,32.0,bayer 04 leverkusen,defense,1.5,31.477419587086445
+0,0,04/07/1999,0.0,0.0,0.0,eintracht frankfurt,defense,2.2,0.0
+frederik,rönnow,04/08/1992,55.0,42.0,40.0,1. fc union berlin,goal,2.3,43.74513902248471
+kristian,pedersen,04/08/1994,0.0,0.0,0.0,1. fc köln,defense,1.5,0.0
+marvin,pieringer,04/10/1999,0.0,0.0,0.0,fc schalke 04,attack,0.8,0.0
+aster,vranckx,04/10/2002,0.0,0.0,67.0,vfl wolfsburg,midfield,1.8,31.987112334791814
+tim,lemperle,05/02/2002,0.0,0.0,34.0,1. fc köln,midfield,1.0,16.23226596093913
+silvan,widmer,05/03/1993,0.0,0.0,164.0,1. fsv mainz 05,defense,2.5,78.29681228217697
+tim,maciejewski,05/03/2001,0.0,0.0,0.0,1. fc union berlin,midfield,0.5,0.0
+julian,eitschberger,05/03/2004,0.0,0.0,0.0,hertha bsc,defense,0.5,0.0
+jurgen,ekkelenkamp,05/04/2000,0.0,0.0,51.0,hertha bsc,midfield,1.5,24.348398941408696
+can,bozdogan,05/04/2001,0.0,-9.0,0.0,fc schalke 04,midfield,1.5,-2.834008041612888
+jakub,kaminski,05/06/2002,0.0,0.0,0.0,vfl wolfsburg,midfield,2.0,0.0
+fabio,chiarodia,05/06/2005,0.0,0.0,0.0,werder bremen,defense,0.5,0.0
+ajdin,hrustic,05/07/1996,0.0,16.0,63.0,eintracht frankfurt,midfield,1.5,35.115670504868945
+alou,kuol,05/07/2001,0.0,0.0,0.0,vfb stuttgart,attack,0.8,0.0
+daichi,kamada,05/08/1996,32.0,105.0,94.0,eintracht frankfurt,midfield,2.4,84.58696851466414
+exequiel,palacios,05/10/1998,7.0,17.0,87.0,bayer 04 leverkusen,midfield,2.4,48.342464790929924
+ondrej,duda,05/12/1994,0.0,65.0,58.0,1. fc köln,midfield,1.5,48.15817190710689
+alexander,sörloth,05/12/1995,0.0,56.0,0.0,rb leipzig,attack,2.0,17.633827814480192
+randal,kolo muani,05/12/1998,0.0,0.0,0.0,eintracht frankfurt,attack,2.6,0.0
+jerome,roussillon,06/01/1993,44.0,32.0,79.0,vfl wolfsburg,defense,1.6,56.93100815920839
+djibril,sow,06/02/1997,18.0,56.0,144.0,eintracht frankfurt,midfield,2.6,90.12067970414648
+kevin-prince,boateng,06/03/1987,0.0,0.0,17.0,hertha bsc,midfield,1.5,8.116132980469565
+maxence,lacroix,06/04/2000,0.0,127.0,83.0,vfl wolfsburg,defense,2.6,79.61682809315681
+peter,gulacsi,06/05/1990,166.0,166.0,231.0,rb leipzig,goal,4.2,197.03227316061893
+ilia,gruev,06/05/2000,0.0,1.0,0.0,werder bremen,midfield,1.3,0.314889782401432
+matteo,bignetti,06/05/2004,0.0,0.0,0.0,eintracht frankfurt,goal,0.5,0.0
+anderson,lucoqui,06/07/1997,0.0,32.0,29.0,1. fsv mainz 05,defense,1.2,23.921641062352727
+mateo,klimowicz,06/07/2000,0.0,13.0,23.0,vfb stuttgart,midfield,1.2,15.074217674206851
+abdenego,nankishi,06/07/2002,0.0,0.0,0.0,werder bremen,midfield,0.6,0.0
+marcus,thuram,06/08/1997,147.0,88.0,50.0,bor. mönchengladbach,attack,3.2,82.11180289093035
+raphael,framberger,06/09/1995,14.0,-16.0,38.0,fc augsburg,defense,0.7,16.01137661803172
+0,0,06/10/1998,0.0,0.0,0.0,vfb stuttgart,midfield,2.6,0.0
+tim,oermann,06/10/2003,0.0,0.0,0.0,vfl bochum,defense,0.5,0.0
+andré,silva,06/11/1995,91.0,265.0,124.0,rb leipzig,attack,4.6,161.54566851170188
+abdoulaye,kamara,06/11/2004,0.0,0.0,0.0,borussia dortmund,midfield,0.5,0.0
+nils,petersen,06/12/1988,69.0,59.0,58.0,sc freiburg,attack,1.6,60.59948671803479
+gregor,kobel,06/12/1997,0.0,166.0,206.0,borussia dortmund,goal,3.5,150.62013881844538
+oscar,fraulo,06/12/2003,0.0,0.0,0.0,bor. mönchengladbach,midfield,0.5,0.0
+christopher,antwi-adjei,07/02/1994,2.0,0.0,62.0,vfl bochum,midfield,1.4,30.015395660383838
+jonas,wind,07/02/1999,0.0,0.0,67.0,vfl wolfsburg,attack,2.3,31.987112334791814
+omar,marmoush,07/02/1999,0.0,0.0,69.0,vfl wolfsburg,attack,1.6,32.941951508964706
+marvin,ducksch,07/03/1994,0.0,0.0,0.0,werder bremen,attack,2.4,0.0
+lee,buchanan,07/03/2001,0.0,0.0,0.0,werder bremen,defense,1.2,0.0
+tony,jantschke,07/04/1990,54.0,13.0,12.0,bor. mönchengladbach,defense,1.0,21.0378962639106
+vincenzo,grifo,07/04/1993,86.0,147.0,247.0,sc freiburg,midfield,4.5,182.07283024740502
+oliver,burke,07/04/1997,0.0,0.0,0.0,werder bremen,attack,1.4,0.0
+dani,olmo,07/05/1998,29.0,123.0,99.0,rb leipzig,midfield,4.0,92.01901064178575
+kevin,paredes,07/05/2003,0.0,0.0,4.0,vfl wolfsburg,midfield,0.8,1.90967834834578
+tanguy,nianzou,07/06/2002,0.0,-2.0,46.0,bayern münchen,defense,1.7,21.331521441173606
+milos,pantovic,07/07/1996,0.0,0.0,67.0,1. fc union berlin,midfield,1.4,31.987112334791814
+sasa,kalajdzic,07/07/1997,0.0,143.0,68.0,vfb stuttgart,attack,3.4,77.49377080528305
+moussa,diaby,07/07/1999,102.0,76.0,220.0,bayer 04 leverkusen,attack,5.0,150.14837693376327
+tim,skarke,07/09/1996,0.0,0.0,0.0,1. fc union berlin,midfield,1.4,0.0
+delano,burgzorg,07/11/1998,0.0,0.0,9.0,1. fsv mainz 05,attack,1.0,4.296776283778005
+danny,latza,07/12/1989,24.0,18.0,0.0,fc schalke 04,midfield,1.6,10.652591215516729
+arne,maier,08/01/1999,-1.0,-5.0,83.0,fc augsburg,midfield,1.6,37.843686185655656
+christian,groß,08/02/1989,18.0,4.0,0.0,werder bremen,midfield,1.6,4.997990478823943
+joshua,kimmich,08/02/1995,191.0,151.0,189.0,bayern münchen,midfield,6.5,177.44956952976986
+luca,wollschläger,08/02/2003,0.0,0.0,0.0,hertha bsc,attack,0.5,0.0
+benjamin,leneis,08/03/1999,0.0,0.0,0.0,fc augsburg,goal,0.5,0.0
+karim,bellarabi,08/04/1990,77.0,19.0,73.0,bayer 04 leverkusen,attack,2.0,56.82671427237117
+ridle,baku,08/04/1998,36.0,137.0,119.0,vfl wolfsburg,midfield,2.4,107.42969375071957
+finn,ole becker,08/06/2000,0.0,0.0,0.0,tsg hoffenheim,midfield,1.2,0.0
+dikeni,salifou,08/06/2003,0.0,0.0,0.0,werder bremen,midfield,0.5,0.0
+kevin,trapp,08/07/1990,93.0,142.0,245.0,eintracht frankfurt,goal,3.8,180.99737657480983
+ivan,ordets,08/07/1992,0.0,0.0,0.0,vfl bochum,defense,1.6,0.0
+vladimir,darida,08/08/1990,68.0,44.0,50.0,hertha bsc,midfield,1.6,51.849092654809624
+benjamin,uphoff,08/08/1993,0.0,0.0,0.0,sc freiburg,goal,0.7,0.0
+malick,thiaw,08/08/2001,0.0,-18.0,0.0,fc schalke 04,defense,1.8,-5.668016083225776
+fisnik,asllani,08/08/2002,0.0,0.0,4.0,tsg hoffenheim,attack,0.5,1.90967834834578
+jonas,urbig,08/08/2003,0.0,0.0,0.0,1. fc köln,goal,0.5,0.0
+jamie,bynoe-gittens,08/08/2004,0.0,0.0,0.0,borussia dortmund,attack,1.7,0.0
+alexander,hack,08/09/1993,11.0,36.0,134.0,1. fsv mainz 05,defense,2.2,77.59485377166854
+lucas,alario,08/10/1992,66.0,78.0,84.0,eintracht frankfurt,attack,3.6,78.3722299563732
+dejan,ljubicic,08/10/1997,0.0,0.0,157.0,1. fc köln,midfield,2.6,74.95487517257186
+jens,stage,08/11/1996,0.0,0.0,0.0,werder bremen,midfield,1.8,0.0
+maximilian,eggestein,08/12/1996,31.0,35.0,122.0,sc freiburg,midfield,2.2,75.70474155447224
+andreas,voglsammer,09/01/1992,0.0,26.0,65.0,1. fc union berlin,attack,1.5,39.21940750305616
+grischa,prömel,09/01/1995,7.0,67.0,163.0,tsg hoffenheim,midfield,2.8,100.37084252957133
+chris,führich,09/01/1998,0.0,0.0,88.0,vfb stuttgart,midfield,1.7,42.01292366360716
+piero,hincapie,09/01/2002,0.0,0.0,114.0,bayer 04 leverkusen,defense,2.2,54.42583292785473
+ricardo,pepi,09/01/2003,0.0,0.0,-4.0,fc augsburg,attack,1.3,-1.90967834834578
+thomas,kastanaras,09/01/2003,0.0,0.0,0.0,vfb stuttgart,attack,0.7,0.0
+wataru,endo,09/02/1993,0.0,139.0,153.0,vfb stuttgart,midfield,2.8,116.81487657802512
+niclas,füllkrug,09/02/1993,42.0,33.0,0.0,werder bremen,attack,2.2,19.114369300756422
+sheraldo,becker,09/02/1995,-2.0,53.0,131.0,1. fc union berlin,attack,2.4,78.81574311457594
+maximilian,bauer,09/02/2000,0.0,0.0,36.0,fc augsburg,defense,1.3,17.18710513511202
+mehmet,aydin,09/02/2002,0.0,0.0,0.0,fc schalke 04,midfield,0.8,0.0
+nicolas,höfler,09/03/1990,50.0,57.0,186.0,sc freiburg,midfield,3.0,117.13329232056654
+genki,haraguchi,09/05/1991,0.0,0.0,80.0,1. fc union berlin,midfield,1.5,38.1935669669156
+hugo,siquet,09/07/2002,0.0,0.0,2.0,sc freiburg,defense,1.0,0.95483917417289
+manuel,riemann,09/09/1988,0.0,0.0,255.0,vfl bochum,goal,3.6,121.74199470704347
+felix,uduokhai,09/09/1997,38.0,70.0,18.0,fc augsburg,defense,1.6,38.52808129511693
+fredrik,jensen,09/09/1997,12.0,10.0,15.0,fc augsburg,midfield,1.0,12.80247919645647
+kevin,kampl,09/10/1990,57.0,82.0,101.0,rb leipzig,midfield,2.4,85.87870639183939
+ivan,sunjic,09/10/1996,0.0,0.0,0.0,hertha bsc,midfield,1.6,0.0
+tarsis,bonga,10/01/1997,0.0,0.0,6.0,vfl bochum,attack,0.6,2.86451752251867
+ansgar,knauff,10/01/2002,0.0,8.0,38.0,eintracht frankfurt,midfield,1.8,20.661062568496366
+eduardo,dos santos haesler,10/02/1999,0.0,0.0,0.0,werder bremen,goal,0.5,0.0
+anthony,losilla,10/03/1986,0.0,0.0,174.0,vfl bochum,midfield,2.4,83.07100815304143
+alassane,plea,10/03/1993,132.0,48.0,153.0,bor. mönchengladbach,attack,3.8,115.57506960709506
+sadio,mané,10/04/1992,0.0,0.0,0.0,bayern münchen,attack,8.0,0.0
+paul,grave,10/04/2001,0.0,0.0,0.0,vfl bochum,goal,0.5,0.0
+ayman,azhil,10/04/2001,0.0,0.0,0.0,bayer 04 leverkusen,midfield,0.5,0.0
+ellyes,skhiri,10/05/1995,49.0,68.0,130.0,1. fc köln,midfield,2.6,93.65389241962924
+dennis,geiger,10/06/1998,27.0,20.0,93.0,tsg hoffenheim,midfield,1.8,56.30546427089534
+jeffrey,gouweleeuw,10/07/1991,36.0,55.0,86.0,fc augsburg,defense,1.6,65.85388521994946
+lucas,höler,10/07/1994,76.0,41.0,181.0,sc freiburg,attack,2.8,115.1079142600266
+jae-sung,lee,10/08/1992,0.0,0.0,110.0,1. fsv mainz 05,midfield,2.0,52.51615457950895
+takuma,asano,10/11/1994,0.0,0.0,70.0,vfl bochum,midfield,1.4,33.41937109605115
+derry,scherhant,10/11/2002,0.0,0.0,0.0,hertha bsc,attack,0.5,0.0
+jeremie,frimpong,10/12/2000,0.0,4.0,137.0,bayer 04 leverkusen,defense,2.5,66.6660425604487
+leroy,sané,11/01/1996,0.0,82.0,163.0,bayern münchen,midfield,5.5,103.64035485200796
+diadie,samassekou,11/01/1996,14.0,84.0,89.0,tsg hoffenheim,midfield,2.0,71.84875379958362
+jonathan,tah,11/02/1996,55.0,81.0,201.0,bayer 04 leverkusen,defense,3.2,132.8903940570582
+filip,uremovic,11/02/1997,0.0,0.0,0.0,hertha bsc,defense,1.6,0.0
+felix,götze,11/02/1998,0.0,0.0,0.0,fc augsburg,midfield,0.8,0.0
+marius,lode,11/03/1993,0.0,0.0,0.0,fc schalke 04,defense,1.2,0.0
+deyovaisio,zeefuik,11/03/1998,0.0,14.0,0.0,hertha bsc,defense,1.0,4.408456953620048
+suat,serdar,11/04/1997,92.0,-18.0,79.0,hertha bsc,midfield,1.8,51.155669303718696
+philipp,lienhart,11/07/1996,57.0,103.0,203.0,sc freiburg,defense,3.2,141.18818970508684
+jonathan,burkardt,11/07/2000,16.0,48.0,200.0,1. fsv mainz 05,attack,3.2,113.9216770607517
+darko,churlinov,11/07/2000,0.0,13.0,0.0,vfb stuttgart,midfield,1.5,4.093567171218616
+sebastian,rode,11/10/1990,83.0,69.0,71.0,eintracht frankfurt,midfield,2.0,72.86250800134262
+konstantinos,mavropanos,11/12/1997,0.0,8.0,144.0,vfb stuttgart,defense,2.3,71.26753879965953
+josha,vagnoman,11/12/2000,0.0,0.0,0.0,vfb stuttgart,defense,1.6,0.0
+patrick,herrmann,12/02/1991,116.0,25.0,57.0,bor. mönchengladbach,attack,1.8,59.17727416336943
+manuel,gulde,12/02/1991,37.0,74.0,80.0,sc freiburg,defense,1.8,69.17996419357011
+julian,chabot,12/02/1998,0.0,0.0,2.0,1. fc köln,defense,1.2,0.95483917417289
+marton,dardai,12/02/2002,0.0,38.0,7.0,hertha bsc,defense,1.2,15.307748840859531
+timo,horn,12/05/1993,127.0,174.0,87.0,1. fc köln,goal,1.0,122.70303628940951
+hiroki,ito,12/05/1999,0.0,0.0,92.0,vfb stuttgart,defense,1.6,43.92260201195294
+kingsley,schindler,12/07/1993,-4.0,0.0,43.0,1. fc köln,midfield,1.2,19.698279722668644
+michael,zetterer,12/07/1995,0.0,0.0,0.0,werder bremen,goal,0.8,0.0
+matthijs,de ligt,12/08/1999,0.0,0.0,0.0,bayern münchen,defense,4.2,0.0
+rodrigo,zalazar,12/08/1999,0.0,0.0,0.0,fc schalke 04,midfield,1.8,0.0
+thomas,meunier,12/09/1991,0.0,18.0,92.0,borussia dortmund,defense,2.5,49.59061809517871
+jakob,busk,12/09/1993,0.0,0.0,0.0,1. fc union berlin,goal,0.5,0.0
+jens,petter hauge,12/10/1999,0.0,0.0,52.0,eintracht frankfurt,midfield,1.7,24.82581852849514
+kilian,fischer,12/10/2000,0.0,0.0,0.0,vfl wolfsburg,defense,1.2,0.0
+laurenz,dehl,12/12/2001,0.0,0.0,0.0,1. fc union berlin,midfield,0.5,0.0
+yannick,gerhardt,13/03/1994,23.0,72.0,74.0,vfl wolfsburg,midfield,1.8,62.777998279078865
+daniel,klein,13/03/2001,0.0,0.0,0.0,fc augsburg,goal,0.5,0.0
+alexander,meyer,13/04/1991,0.0,0.0,0.0,borussia dortmund,goal,0.8,0.0
+andras,schäfer,13/04/1999,0.0,0.0,23.0,1. fc union berlin,midfield,1.4,10.980650502988235
+mark,flekken,13/06/1993,62.0,18.0,237.0,sc freiburg,goal,3.4,131.69327731446486
+kingsley,coman,13/06/1996,107.0,146.0,132.0,bayern münchen,midfield,6.5,131.21619119081697
+danny,da costa,13/07/1993,44.0,27.0,12.0,1. fsv mainz 05,defense,1.4,23.36944691240942
+andré,hahn,13/08/1990,-8.0,65.0,90.0,fc augsburg,midfield,1.6,61.77407364977615
+thomas,müller,13/09/1989,197.0,224.0,250.0,bayern münchen,midfield,7.5,230.80526224042026
+joel,pohjanpalo,13/09/1994,0.0,42.0,0.0,bayer 04 leverkusen,attack,1.4,13.225370860860144
+niklas,klinger,13/10/1995,0.0,0.0,0.0,vfl wolfsburg,goal,0.5,0.0
+pavao,pervan,13/11/1987,41.0,15.0,33.0,vfl wolfsburg,goal,0.8,28.99350896087121
+andrey,lunev,13/11/1991,0.0,0.0,6.0,bayer 04 leverkusen,goal,0.8,2.86451752251867
+florian,müller,13/11/1997,65.0,149.0,165.0,vfb stuttgart,goal,2.4,139.1927004303648
+marvin,friedrich,13/12/1995,85.0,171.0,75.0,bor. mönchengladbach,defense,2.5,107.3063254156587
+nicolai,rapp,13/12/1996,0.0,0.0,0.0,werder bremen,midfield,1.3,0.0
+eren,dinkci,13/12/2001,0.0,0.0,0.0,werder bremen,attack,0.8,0.0
+bartol,franjic,14/01/2000,0.0,0.0,0.0,vfl wolfsburg,midfield,1.7,0.0
+lucas,hernandez,14/02/1996,20.0,66.0,110.0,bayern münchen,defense,3.0,77.45269282824592
+myziane,maolida,14/02/1999,0.0,0.0,4.0,hertha bsc,attack,1.3,1.90967834834578
+nick,woltemade,14/02/2002,0.0,6.0,0.0,werder bremen,attack,0.6,1.889338694408592
+henning,matriciani,14/03/2000,0.0,0.0,0.0,fc schalke 04,defense,1.0,0.0
+anthony,modeste,14/04/1988,10.0,0.0,281.0,1. fc köln,attack,4.0,136.2318102764123
+jiri,pavlenka,14/04/1992,124.0,144.0,0.0,werder bremen,goal,2.6,71.09776684930947
+niklas,stark,14/04/1995,12.0,80.0,88.0,werder bremen,defense,2.0,69.69639382186719
+munas,dabbur,14/05/1992,49.0,37.0,88.0,tsg hoffenheim,attack,1.8,63.840686507554175
+stefan,posch,14/05/1997,60.0,30.0,110.0,tsg hoffenheim,defense,1.8,74.42428588227929
+kristijan,jakic,14/05/1997,0.0,0.0,82.0,eintracht frankfurt,midfield,1.7,39.148406141088486
+mehdi,loune,14/05/2004,0.0,0.0,0.0,eintracht frankfurt,midfield,0.5,0.0
+jonas,hofmann,14/07/1992,85.0,119.0,184.0,bor. mönchengladbach,midfield,4.0,142.97079172320673
+serge,gnabry,14/07/1995,145.0,126.0,210.0,bayern münchen,midfield,6.0,170.04936729499173
+robert,wagner,14/07/2003,0.0,0.0,0.0,sc freiburg,midfield,0.5,0.0
+soumaila,coulibaly,14/10/2003,0.0,0.0,0.0,borussia dortmund,defense,0.7,0.0
+christopher,nkunku,14/11/1997,132.0,135.0,337.0,rb leipzig,attack,8.5,230.81568469992555
+noussair,mazraoui,14/11/1997,0.0,0.0,0.0,bayern münchen,defense,2.8,0.0
+lukas,nmecha,14/12/1998,0.0,0.0,97.0,vfl wolfsburg,attack,2.5,46.30969994738516
+daniel,caligiuri,15/01/1988,41.0,58.0,80.0,fc augsburg,midfield,1.6,64.9724901971957
+marcin,kaminski,15/01/1992,0.0,-3.0,0.0,fc schalke 04,defense,1.6,-0.944669347204296
+niklas,dorsch,15/01/1998,0.0,0.0,109.0,fc augsburg,midfield,1.8,52.038734992422505
+yannik,keitel,15/02/2000,7.0,16.0,34.0,sc freiburg,midfield,1.2,22.724336892946905
+ibrahima,cissé,15/02/2001,0.0,0.0,0.0,fc schalke 04,defense,0.6,0.0
+levin,öztunali,15/03/1996,55.0,36.0,26.0,1. fc union berlin,midfield,1.3,35.17192610886589
+jonjoe,kenny,15/03/1997,46.0,0.0,0.0,hertha bsc,defense,1.5,9.55376900355766
+clinton,mola,15/03/2001,0.0,0.0,0.0,vfb stuttgart,defense,0.7,0.0
+tjark,ernst,15/03/2003,0.0,0.0,0.0,hertha bsc,goal,0.6,0.0
+edimilson,fernandes,15/04/1996,-15.0,18.0,0.0,1. fsv mainz 05,midfield,1.0,2.5526566255439302
+luca,netz,15/05/2003,0.0,6.0,68.0,bor. mönchengladbach,defense,1.6,34.353870616286855
+sven,michel,15/07/1990,37.0,0.0,46.0,1. fc union berlin,attack,1.8,29.645854334925023
+sebastian,andersson,15/07/1991,94.0,16.0,56.0,1. fc köln,attack,1.5,51.2966526634034
+0,0,15/07/2000,0.0,0.0,0.0,bayer 04 leverkusen,attack,2.2,0.0
+dominique,heintz,15/08/1993,72.0,31.0,26.0,1. fc union berlin,defense,1.5,37.12821791556482
+rafael,santos borré,15/09/1995,0.0,0.0,107.0,eintracht frankfurt,attack,2.4,51.083895818249616
+anton,stach,15/11/1998,0.0,0.0,142.0,1. fsv mainz 05,midfield,2.5,67.79358136627519
+florian,neuhaus,16/03/1997,114.0,118.0,104.0,bor. mönchengladbach,midfield,2.6,110.48536325874129
+marco,friedl,16/03/1998,9.0,34.0,0.0,werder bremen,defense,2.0,12.575468276257794
+lukas,ullrich,16/03/2004,0.0,0.0,0.0,hertha bsc,defense,0.5,0.0
+ramy,bensebaini,16/04/1995,106.0,53.0,69.0,bor. mönchengladbach,defense,2.3,71.64631681052565
+hannes,wolf,16/04/1999,5.0,17.0,0.0,bor. mönchengladbach,midfield,1.5,6.391579453384959
+mio,backhaus,16/04/2004,0.0,0.0,0.0,werder bremen,goal,0.5,0.0
+ryan,gravenberch,16/05/2002,0.0,0.0,0.0,bayern münchen,midfield,3.5,0.0
+kiliann,sildillia,16/05/2002,0.0,0.0,16.0,sc freiburg,defense,0.7,7.63871339338312
+ritsu,doan,16/06/1998,0.0,86.0,0.0,sc freiburg,midfield,2.2,27.08052128652315
+tiago,tomas,16/06/2002,0.0,0.0,64.0,vfb stuttgart,attack,2.6,30.55485357353248
+mats,hummels,16/12/1988,154.0,139.0,115.0,borussia dortmund,defense,3.4,130.65728936760718
+amos,pieper,17/01/1998,0.0,71.0,96.0,werder bremen,defense,1.8,68.1894549108004
+cedric,brunner,17/02/1994,0.0,38.0,117.0,fc schalke 04,defense,1.7,67.82390342036848
+niklas,tauer,17/02/2001,0.0,5.0,20.0,1. fsv mainz 05,defense,1.0,11.12284065373606
+karim,onisiwo,17/03/1992,53.0,63.0,162.0,1. fsv mainz 05,attack,2.6,108.18763281643682
+marcel,sabitzer,17/03/1994,182.0,154.0,43.0,bayern münchen,midfield,3.2,106.82176348774406
+nahuel,noll,17/03/2003,0.0,0.0,0.0,tsg hoffenheim,goal,0.5,0.0
+charles,aranguiz,17/04/1989,84.0,17.0,126.0,bayer 04 leverkusen,midfield,2.5,82.95400723673475
+enzo,millot,17/07/2002,0.0,0.0,13.0,vfb stuttgart,midfield,0.6,6.206454632123785
+hrvoje,smolcic,17/08/2000,0.0,0.0,0.0,eintracht frankfurt,defense,1.5,0.0
+maurice,malone,17/08/2000,0.0,0.0,0.0,fc augsburg,attack,0.7,0.0
+benno,schmitz,17/11/1994,-5.0,9.0,156.0,1. fc köln,defense,2.3,76.27301047453768
+julian,ryerson,17/11/1997,12.0,37.0,94.0,1. fc union berlin,defense,1.8,59.02065070112429
+yann,sommer,17/12/1988,175.0,133.0,257.0,bor. mönchengladbach,goal,4.0,200.92303528022836
+makoto,hasebe,18/01/1984,26.0,75.0,60.0,eintracht frankfurt,defense,1.7,57.6618652986093
+merveille,papela,18/01/2001,0.0,1.0,8.0,1. fsv mainz 05,midfield,0.5,4.134246479092992
+karim,adeyemi,18/01/2002,0.0,0.0,0.0,borussia dortmund,attack,4.2,0.0
+tanguy,coulibaly,18/02/2001,0.0,29.0,35.0,vfb stuttgart,midfield,1.2,25.841489237667105
+maximilian,mittelstädt,18/03/1997,30.0,-5.0,47.0,hertha bsc,defense,1.2,27.094990596419446
+orel,mangala,18/03/1998,0.0,64.0,90.0,vfb stuttgart,midfield,1.8,63.120708911471695
+adrian,fein,18/03/1999,0.0,0.0,0.0,bayern münchen,midfield,0.8,0.0
+michael,gregoritsch,18/04/1994,-32.0,19.0,112.0,sc freiburg,attack,2.2,52.80779944292111
+ali,akman,18/04/2002,0.0,0.0,0.0,eintracht frankfurt,attack,0.7,0.0
+maxim,leitsch,18/05/1998,0.0,0.0,85.0,1. fsv mainz 05,defense,1.8,40.58066490234783
+amine,harit,18/06/1997,88.0,-28.0,0.0,fc schalke 04,midfield,2.0,9.459861577826732
+faride,alidou,18/07/2001,0.0,0.0,0.0,eintracht frankfurt,attack,1.4,0.0
+jan,olschowsky,18/11/2001,0.0,0.0,0.0,bor. mönchengladbach,goal,0.5,0.0
+justin,che,18/11/2003,0.0,0.0,4.0,tsg hoffenheim,defense,1.0,1.90967834834578
+matthias,ginter,19/01/1994,152.0,148.0,111.0,sc freiburg,defense,2.8,131.16623779985002
+donyell,malen,19/01/1999,0.0,0.0,104.0,borussia dortmund,attack,3.5,49.65163705699028
+ilaix,moriba,19/01/2003,0.0,0.0,0.0,rb leipzig,midfield,1.5,0.0
+christoph,kramer,19/02/1991,67.0,58.0,30.0,bor. mönchengladbach,midfield,1.7,46.50146723618865
+max,kruse,19/03/1988,0.0,102.0,195.0,vfl wolfsburg,attack,3.4,125.21557728680284
+kevin,mbabu,19/04/1995,57.0,60.0,41.0,vfl wolfsburg,defense,1.7,50.30595595382118
+kevin,akpoguma,19/04/1995,2.0,25.0,90.0,tsg hoffenheim,defense,1.6,51.2553886588401
+carlos,gruezo,19/04/1995,12.0,-7.0,24.0,fc augsburg,midfield,1.0,11.746129179410133
+micky,van de ven,19/04/2001,0.0,0.0,21.0,vfl wolfsburg,defense,1.2,10.025811328815346
+luca,waldschmidt,19/05/1996,54.0,0.0,11.0,vfl wolfsburg,attack,1.8,16.46690950560554
+alex,kral,19/05/1998,0.0,0.0,0.0,fc schalke 04,midfield,1.7,0.0
+louis,jordan beyer,19/05/2000,0.0,2.0,63.0,bor. mönchengladbach,defense,1.7,30.7072135512489
+andrej,kramaric,19/06/1991,126.0,226.0,181.0,tsg hoffenheim,attack,4.8,183.7470555298977
+kimberly,ezekwem,19/06/2001,0.0,0.0,0.0,sc freiburg,defense,0.6,0.0
+mohammed,tolba,19/07/2004,0.0,0.0,0.0,vfl bochum,defense,0.5,0.0
+josuha,guilavogui,19/09/1990,45.0,48.0,0.0,vfl wolfsburg,midfield,1.7,24.460787928314275
+jacob,bruun larsen,19/09/1998,0.0,0.0,52.0,tsg hoffenheim,attack,1.4,24.82581852849514
+diant,ramaj,19/09/2001,0.0,0.0,2.0,eintracht frankfurt,goal,0.8,0.95483917417289
+florent,mollet,19/11/1991,0.0,0.0,0.0,fc schalke 04,midfield,2.2,0.0
+leonardo,bittencourt,19/12/1993,67.0,29.0,0.0,werder bremen,midfield,1.7,23.04707593395377
+davie,selke,20/01/1995,-11.0,4.0,38.0,hertha bsc,attack,1.6,17.116906503257283
+pascal,stenzel,20/03/1996,0.0,-1.0,28.0,vfb stuttgart,defense,1.3,13.052858656019028
+georginio,rutter,20/04/2002,0.0,4.0,139.0,tsg hoffenheim,attack,3.0,67.62088173462159
+robert,skov,20/05/1996,76.0,17.0,34.0,tsg hoffenheim,midfield,1.5,37.36988018068483
+mitchel,bakker,20/06/2000,0.0,0.0,85.0,bayer 04 leverkusen,defense,1.8,40.58066490234783
+timo,hübers,20/07/1996,0.0,0.0,122.0,1. fc köln,defense,2.4,58.24518962454629
+waldemar,anton,20/07/1996,0.0,62.0,119.0,vfb stuttgart,defense,2.0,76.33609737217574
+angelo,fulgini,20/08/1996,0.0,0.0,0.0,1. fsv mainz 05,midfield,1.8,0.0
+evan,ndicka,20/08/1999,32.0,74.0,169.0,eintracht frankfurt,defense,2.6,110.63185429170312
+lilian,egloff,20/08/2002,0.0,2.0,8.0,vfb stuttgart,midfield,0.5,4.449136261494424
+dong-gyeong,lee,20/09/1997,0.0,0.0,0.0,fc schalke 04,midfield,0.7,0.0
+woo-yeong,jeong,20/09/1999,0.0,45.0,108.0,sc freiburg,midfield,2.0,65.7313556134005
+noah,weißhaupt,20/09/2001,0.0,0.0,22.0,sc freiburg,midfield,1.0,10.50323091590179
+youssoufa,moukoko,20/11/2004,0.0,25.0,36.0,borussia dortmund,attack,1.7,25.05934969514782
+rick,van drongelen,20/12/1998,0.0,0.0,0.0,1. fc union berlin,defense,1.0,0.0
+mathias,olesen,21/03/2001,0.0,0.0,0.0,1. fc köln,midfield,0.5,0.0
+lasse,günther,21/03/2003,0.0,0.0,6.0,fc augsburg,midfield,0.6,2.86451752251867
+mitchell,weiser,21/04/1994,5.0,15.0,0.0,werder bremen,defense,1.2,5.761799888582096
+jonas,nickisch,21/05/2004,0.0,0.0,0.0,rb leipzig,goal,0.5,0.0
+jacek,goralski,21/09/1992,0.0,0.0,0.0,vfl bochum,midfield,1.5,0.0
+moritz,nicolas,21/10/1997,-2.0,0.0,0.0,bor. mönchengladbach,goal,0.5,-0.4153812610242461
+göktan,gürpüz,22/01/2003,0.0,0.0,0.0,borussia dortmund,midfield,0.5,0.0
+nikolas,nartey,22/02/2000,0.0,0.0,14.0,vfb stuttgart,midfield,1.3,6.68387421921023
+tobias,sippel,22/03/1988,0.0,23.0,2.0,bor. mönchengladbach,goal,0.7,8.197304169405825
+sebastiaan,bornauw,22/03/1999,107.0,65.0,84.0,vfl wolfsburg,defense,2.2,82.79397863615162
+oliver,christensen,22/03/1999,0.0,0.0,0.0,hertha bsc,goal,2.0,0.0
+0,0,22/04/1997,0.0,0.0,0.0,1. fsv mainz 05,defense,1.8,0.0
+david,raum,22/04/1998,0.0,0.0,209.0,tsg hoffenheim,defense,4.0,99.78069370106701
+robin,knoche,22/05/1992,67.0,75.0,130.0,1. fc union berlin,defense,2.0,99.5965522456575
+roland,sallai,22/05/1997,30.0,104.0,127.0,sc freiburg,midfield,2.6,99.61154384509115
+joshua,zirkzee,22/05/2001,29.0,0.0,0.0,bayern münchen,attack,1.5,6.023028284851568
+antonis,aidonis,22/05/2001,0.0,0.0,0.0,vfb stuttgart,defense,0.5,0.0
+jonathan,schmid,22/06/1990,83.0,60.0,33.0,sc freiburg,defense,1.7,51.88655565044482
+tom,krauß,22/06/2001,1.0,0.0,0.0,fc schalke 04,midfield,1.6,0.20769063051212305
+paul,jaeckel,22/07/1998,0.0,0.0,74.0,1. fc union berlin,defense,1.5,35.32904944439693
+jens,grahl,22/09/1988,0.0,0.0,6.0,eintracht frankfurt,goal,0.5,2.86451752251867
+robert,andrich,22/09/1994,61.0,105.0,152.0,bayer 04 leverkusen,midfield,2.8,118.3003328505295
+christopher,lenz,22/09/1994,29.0,65.0,35.0,eintracht frankfurt,defense,1.5,43.20054968897023
+saidy,janko,22/10/1995,0.0,0.0,0.0,vfl bochum,defense,1.4,0.0
+michael,esser,22/11/1987,0.0,0.0,22.0,vfl bochum,goal,0.8,10.50323091590179
+erhan,masovic,22/11/1998,0.0,0.0,72.0,vfl bochum,defense,1.5,34.37421027022404
+raphael,guerreiro,22/12/1993,103.0,119.0,77.0,borussia dortmund,defense,2.8,95.62532725417535
+jerome,onguené,22/12/1997,0.0,0.0,0.0,eintracht frankfurt,defense,1.8,0.0
+tymoteusz,puchacz,23/01/1999,0.0,0.0,0.0,1. fc union berlin,defense,1.3,0.0
+benjamin,henrichs,23/02/1997,0.0,13.0,84.0,rb leipzig,defense,2.3,44.19681248648
+juan,josé perea,23/02/2000,0.0,0.0,0.0,vfb stuttgart,attack,1.5,0.0
+0,0,23/03/1997,0.0,0.0,0.0,fc augsburg,defense,1.8,0.0
+sargis,adamyan,23/05/1993,51.0,48.0,0.0,1. fc köln,attack,1.7,25.70693171138701
+josip,brekalo,23/06/1998,26.0,77.0,0.0,vfl wolfsburg,midfield,1.8,29.646469638225465
+linton,maina,23/06/1999,0.0,0.0,0.0,1. fc köln,midfield,1.4,0.0
+kevin,vogt,23/09/1991,60.0,53.0,148.0,tsg hoffenheim,defense,2.6,99.80869518679714
+emil,forsberg,23/10/1991,62.0,111.0,162.0,rb leipzig,midfield,3.8,125.17155804631466
+paul,wanner,23/12/2005,0.0,0.0,8.0,bayern münchen,midfield,0.7,3.81935669669156
+patrik,schick,24/01/1996,99.0,58.0,258.0,bayer 04 leverkusen,attack,6.5,161.99923326828605
+hugo,novoa,24/01/2003,0.0,0.0,21.0,rb leipzig,attack,1.0,10.025811328815346
+christopher,trimmel,24/02/1987,61.0,89.0,118.0,1. fc union berlin,defense,2.2,97.02983037116746
+marlon,mustapha,24/05/2001,0.0,0.0,0.0,1. fsv mainz 05,attack,0.8,0.0
+yvandro,borges sanches,24/05/2004,0.0,0.0,0.0,bor. mönchengladbach,attack,0.5,0.0
+maya,yoshida,24/08/1988,0.0,0.0,0.0,fc schalke 04,defense,1.9,0.0
+mark,uth,24/08/1991,63.0,-8.0,183.0,1. fc köln,midfield,3.0,97.93317589987173
+stefan,bell,24/08/1991,0.0,52.0,155.0,1. fsv mainz 05,defense,2.3,90.37430468327344
+tobias,mohr,24/08/1995,0.0,0.0,0.0,fc schalke 04,midfield,1.7,0.0
+dodi,lukebakio,24/09/1997,28.0,22.0,42.0,hertha bsc,attack,1.6,32.794535524801645
+cristian,gamboa,24/10/1989,0.0,0.0,115.0,vfl bochum,defense,2.2,54.90325251494117
+florian,niederlechner,24/10/1990,136.0,20.0,68.0,fc augsburg,attack,1.7,67.00825331955564
+florian,kainz,24/10/1992,77.0,6.0,157.0,1. fc köln,midfield,2.4,92.83639241641393
+lukas,hradecky,24/11/1989,193.0,140.0,215.0,bayer 04 leverkusen,goal,3.2,186.8140724486259
+marco,richter,24/11/1997,46.0,41.0,78.0,hertha bsc,attack,1.7,59.70297787475908
+lennart,grill,25/01/1999,0.0,22.0,8.0,1. fc union berlin,goal,0.7,10.746931909523065
+santiago,ascacibar,25/02/1997,8.0,27.0,45.0,hertha bsc,midfield,1.4,31.647430587825674
+gerrit,holtmann,25/03/1995,-2.0,0.0,121.0,vfl bochum,midfield,2.0,57.3523887764356
+ermedin,demirovic,25/03/1998,0.0,83.0,75.0,fc augsburg,attack,1.7,61.94232097080223
+ozan,kabak,25/03/2000,106.0,0.0,0.0,fc schalke 04,defense,2.0,22.015206834285042
+pavel,kaderabek,25/04/1992,70.0,55.0,70.0,tsg hoffenheim,defense,1.8,65.27665326397853
+marvin,schwäbe,25/04/1995,0.0,0.0,171.0,1. fc köln,goal,3.4,81.6387493917821
+kingsley,ehizibue,25/05/1995,18.0,-7.0,35.0,1. fc köln,defense,1.4,18.243888420433766
+noah,atubolu,25/05/2002,0.0,0.0,0.0,sc freiburg,goal,0.5,0.0
+koen,casteels,25/06/1992,125.0,183.0,190.0,vfl wolfsburg,goal,3.2,174.295880539902
+torben,müsel,25/07/1999,1.0,0.0,0.0,bor. mönchengladbach,midfield,0.5,0.20769063051212305
+adam,hlozek,25/07/2002,0.0,0.0,0.0,bayer 04 leverkusen,attack,2.4,0.0
+dominik,szoboszlai,25/10/2000,0.0,0.0,121.0,rb leipzig,midfield,2.8,57.76777003745985
+marvin,plattenhardt,26/01/1992,24.0,30.0,58.0,hertha bsc,defense,1.5,42.121604655347724
+jamie,leweling,26/02/2001,0.0,0.0,111.0,1. fc union berlin,attack,1.8,52.993574166595394
+bright,arrey-mbi,26/03/2003,0.0,0.0,0.0,1. fc köln,defense,0.6,0.0
+jordan,siebatcheu,26/04/1996,0.0,0.0,0.0,1. fc union berlin,attack,2.6,0.0
+dominick,drexler,26/05/1990,51.0,6.0,0.0,fc schalke 04,midfield,1.5,12.481560850526867
+jan,thielmann,26/05/2002,-8.0,17.0,87.0,1. fc köln,midfield,1.7,45.227105333248076
+simon,zoller,26/06/1991,0.0,0.0,44.0,vfl bochum,attack,1.5,21.00646183180358
+robert,kwasigroch,26/06/2004,0.0,0.0,0.0,hertha bsc,goal,0.5,0.0
+lars,stindl,26/08/1988,130.0,178.0,98.0,bor. mönchengladbach,midfield,3.5,129.8372827685025
+tomas,koubek,26/08/1992,57.0,0.0,0.0,fc augsburg,goal,0.7,11.838365939191014
+kerim,calhanoglu,26/08/2002,0.0,-16.0,0.0,fc schalke 04,midfield,0.7,-5.038236518422912
+niko,gießelmann,26/09/1991,1.0,13.0,127.0,1. fc union berlin,defense,2.2,64.93354536170925
+milos,veljkovic,26/09/1995,38.0,22.0,0.0,werder bremen,defense,1.7,14.819819172292181
+rafal,gikiewicz,26/10/1987,159.0,179.0,204.0,fc augsburg,goal,2.8,186.7816770669187
+rani,khedira,27/01/1994,24.0,21.0,115.0,1. fc union berlin,midfield,1.7,66.50051307766219
+ko,itakura,27/01/1997,0.0,0.0,0.0,bor. mönchengladbach,midfield,2.2,0.0
+romano,schmid,27/01/2000,0.0,11.0,0.0,werder bremen,midfield,1.7,3.4637876064157522
+linus,gechter,27/02/2004,0.0,0.0,25.0,hertha bsc,defense,1.0,11.935489677161124
+manuel,neuer,27/03/1986,191.0,182.0,210.0,bayern münchen,goal,4.5,197.2369641130296
+finn,dahmen,27/03/1998,0.0,16.0,8.0,1. fsv mainz 05,goal,0.8,8.857593215114472
+jonas,hector,27/05/1990,84.0,70.0,171.0,1. fc köln,defense,2.8,121.12704712290068
+maximilian,arnold,27/05/1994,128.0,138.0,135.0,vfl wolfsburg,midfield,2.6,134.49083493361945
+marius,wolf,27/05/1995,-2.0,24.0,87.0,borussia dortmund,midfield,1.8,48.67747759313084
+konrad,laimer,27/05/1997,125.0,-2.0,125.0,rb leipzig,midfield,3.0,85.00899763501815
+niklas,hauptmann,27/06/1996,0.0,0.0,0.0,1. fc köln,midfield,0.8,0.0
+lasse,rieß,27/07/2001,0.0,0.0,0.0,1. fsv mainz 05,goal,0.5,0.0
+stefan,lainer,27/08/1992,100.0,89.0,75.0,bor. mönchengladbach,defense,2.3,84.60072271642312
+kevin,stöger,27/08/1993,44.0,33.0,53.0,vfl bochum,midfield,1.6,44.83298867736225
+ralf,fährmann,27/09/1988,0.0,93.0,0.0,fc schalke 04,goal,1.0,29.284749763333178
+marcel,halstenberg,27/09/1991,96.0,74.0,37.0,rb leipzig,defense,2.6,60.90466914906824
+felix,agu,27/09/1999,0.0,22.0,0.0,werder bremen,defense,1.6,6.9275752128315045
+dayot,upamecano,27/10/1998,87.0,99.0,125.0,bayern münchen,defense,3.4,108.92062169810211
+justin,heekeren,27/11/2000,0.0,0.0,0.0,fc schalke 04,goal,0.6,0.0
+marc,oliver kempf,28/01/1995,0.0,67.0,75.0,hertha bsc,defense,1.8,56.90408445237932
+sebastian,rudy,28/02/1990,46.0,43.0,63.0,tsg hoffenheim,midfield,1.5,53.171463633265276
+christian,günter,28/02/1993,128.0,134.0,216.0,sc freiburg,defense,3.4,171.90226235801578
+benjamin,pavard,28/03/1996,123.0,20.0,77.0,bayern münchen,defense,2.6,68.60505140667604
+almamy,toure,28/04/1996,27.0,25.0,8.0,eintracht frankfurt,defense,1.4,17.299248280554682
+keven,schlotterbeck,28/04/1997,56.0,30.0,26.0,sc freiburg,defense,1.5,33.49027804496942
+melayro,bogarde,28/05/2002,0.0,4.0,0.0,tsg hoffenheim,defense,0.7,1.259559129605728
+tom,bischof,28/06/2005,0.0,0.0,2.0,tsg hoffenheim,midfield,0.6,0.95483917417289
+niklas,lomb,28/07/1993,0.0,-1.0,0.0,bayer 04 leverkusen,goal,0.5,-0.314889782401432
+xaver,schlager,28/09/1997,66.0,123.0,64.0,rb leipzig,midfield,3.0,82.99387842270873
+robin,zentner,28/10/1994,97.0,133.0,225.0,1. fsv mainz 05,goal,3.0,169.44573931351653
+dedryck,boyata,28/11/1990,105.0,73.0,69.0,hertha bsc,defense,2.0,77.73642182804215
+luca,philipp,28/11/2000,0.0,0.0,0.0,tsg hoffenheim,goal,0.5,0.0
+philipp,schulze,29/01/2003,0.0,0.0,0.0,vfl wolfsburg,goal,0.5,0.0
+jesper,lindström,29/02/2000,0.0,0.0,130.0,eintracht frankfurt,midfield,2.5,62.06454632123785
+timothy,chandler,29/03/1990,38.0,7.0,28.0,eintracht frankfurt,defense,1.3,23.464220874691158
+thorgan,hazard,29/03/1993,110.0,30.0,65.0,borussia dortmund,attack,2.8,63.32493598899542
+marius,bülter,29/03/1993,58.0,16.0,0.0,fc schalke 04,attack,1.7,17.08429308812605
+paul,seguin,29/03/1995,0.0,0.0,37.0,1. fc union berlin,midfield,1.4,17.664524722198465
+naouirou,ahamada,29/03/2002,0.0,-11.0,4.0,vfb stuttgart,midfield,0.5,-1.5541092580699722
+lucas,tousart,29/04/1997,0.0,36.0,50.0,hertha bsc,midfield,1.6,35.207011520773804
+eric,martel,29/04/2002,0.0,0.0,0.0,1. fc köln,midfield,1.3,0.0
+ben,bobzien,29/04/2003,0.0,0.0,0.0,1. fsv mainz 05,attack,0.5,0.0
+felix,passlack,29/05/1998,0.0,15.0,28.0,borussia dortmund,defense,0.6,18.09109517444194
+rocco,reitz,29/05/2002,0.0,5.0,0.0,bor. mönchengladbach,midfield,0.5,1.57444891200716
+eniss,shabani,29/05/2003,0.0,0.0,0.0,1. fsv mainz 05,midfield,0.5,0.0
+silvere,ganvoula,29/06/1996,0.0,0.0,0.0,vfl bochum,attack,1.0,0.0
+jude,bellingham,29/06/2003,0.0,84.0,210.0,borussia dortmund,midfield,5.5,126.70885500987374
+rune,jarstein,29/09/1984,111.0,32.0,0.0,hertha bsc,goal,0.7,33.130133023691485
+tom,rothe,29/10/2004,0.0,0.0,0.0,borussia dortmund,defense,0.9,0.0
+philipp,hofmann,30/03/1993,0.0,0.0,0.0,vfl bochum,attack,2.0,0.0
+victor,palsson,30/04/1991,0.0,0.0,0.0,fc schalke 04,midfield,1.5,0.0
+patrick,wimmer,30/05/2001,0.0,0.0,142.0,vfl wolfsburg,midfield,2.4,67.79358136627519
+danilho,doekhi,30/06/1998,0.0,0.0,0.0,1. fc union berlin,defense,1.8,0.0
+lukas,kübler,30/08/1992,8.0,17.0,108.0,sc freiburg,defense,1.8,58.575966750257386
+nico,elvedi,30/09/1996,103.0,85.0,57.0,bor. mönchengladbach,defense,2.0,75.37068291079777
+thomas,ouwejan,30/09/1996,0.0,0.0,0.0,fc schalke 04,defense,1.8,0.0
+peter,pekarik,30/10/1986,30.0,74.0,66.0,hertha bsc,defense,1.3,61.04225556077503
+dominik,kohr,31/01/1994,17.0,50.0,80.0,1. fsv mainz 05,midfield,1.6,57.46879680569329
+amadou,haidara,31/01/1998,20.0,91.0,93.0,rb leipzig,midfield,2.4,77.20880440781215
+nishan,burkart,31/01/2000,0.0,0.0,0.0,sc freiburg,attack,0.5,0.0
+laurin,ulrich,31/01/2005,0.0,0.0,0.0,vfb stuttgart,midfield,0.5,0.0
+vasilios,lampropoulos,31/03/1990,0.0,0.0,20.0,vfl bochum,defense,1.2,9.5483917417289
+marco,reus,31/05/1989,88.0,134.0,217.0,borussia dortmund,midfield,6.5,164.07205672461728
+aaron,zehnter,31/10/2004,0.0,0.0,0.0,fc augsburg,defense,0.5,0.0
+joe,scally,31/12/2002,0.0,0.0,71.0,bor. mönchengladbach,defense,1.4,33.896790683137596
+abass,issah,26/09/1998,0.0,0.0,0.0,1. fsv mainz 05,midfield,0.8,0.0
+ademola,lookman,20/10/1997,-6.0,0.0,0.0,rb leipzig,attack,1.3,-1.2461437830727382
+amine,adli,10/05/2000,0.0,0.0,64.0,bayer 04 leverkusen,attack,1.7,30.55485357353248
+atakan,karazor,13/10/1996,0.0,11.0,80.0,vfb stuttgart,midfield,0.8,41.65735457333135
+aymen,barkok,21/05/1998,-2.0,36.0,2.0,1. fsv mainz 05,midfield,1.2,11.875490079600196
+bartosz,bialek,11/11/2001,0.0,26.0,26.0,vfl wolfsburg,attack,1.3,20.600043606684803
+borna,sosa,21/01/1998,0.0,82.0,134.0,vfb stuttgart,defense,2.4,89.79518682650105
+bouna,sarr,31/01/1992,0.0,-2.0,10.0,bayern münchen,defense,1.2,4.1444163060615855
+aurelio,buta,10/02/1997,0.0,0.0,0.0,eintracht frankfurt,defense,1.5,0.0
+chidera,ejuke,02/01/1998,0.0,0.0,0.0,hertha bsc,attack,1.7,0.0
+chris,richards,28/03/2000,0.0,33.0,73.0,bayern münchen,defense,1.7,45.24299267655774
+daniel-kofi,kyereh,08/03/1996,0.0,0.0,0.0,sc freiburg,midfield,2.0,0.0
+danilo,soares,29/10/1991,0.0,0.0,139.0,vfl bochum,defense,2.3,66.36132260501586
+dimitrios,limnios,27/05/1998,0.0,4.0,0.0,1. fc köln,midfield,1.0,1.259559129605728
+diogo,leite,23/01/1999,0.0,0.0,0.0,1. fc union berlin,defense,1.8,0.0
+dzenan,pejcinovic,15/02/2005,0.0,0.0,0.0,vfl wolfsburg,midfield,0.6,0.0
+emre,can,12/01/1994,58.0,67.0,130.0,borussia dortmund,midfield,2.8,95.20821831183693
+eric,maxim choupo-moting,23/03/1989,0.0,25.0,56.0,bayern münchen,attack,2.2,34.60774143687672
+ermin,bicakcic,24/01/1990,49.0,15.0,2.0,tsg hoffenheim,defense,1.3,15.8550268052884
+fabio,schneider,31/07/2002,0.0,0.0,0.0,1. fc union berlin,midfield,0.5,0.0
+fabrice,hartmann,02/03/2001,0.0,0.0,0.0,rb leipzig,attack,0.5,0.0
+felix,nmecha,10/10/2000,0.0,0.0,29.0,vfl wolfsburg,midfield,0.8,13.845168025506904
+florian,schock,22/05/2001,0.0,0.0,0.0,vfb stuttgart,goal,0.5,0.0
+florian,wirtz,03/05/2003,18.0,90.0,205.0,bayer 04 leverkusen,midfield,5.0,129.94952711806832
+fredrik,andré björkan,21/08/1998,0.0,0.0,4.0,hertha bsc,defense,1.0,1.90967834834578
+fynn,otto,08/03/2002,0.0,0.0,0.0,eintracht frankfurt,defense,0.5,0.0
+giovanni,reyna,13/11/2002,20.0,90.0,43.0,borussia dortmund,midfield,3.5,53.02293527108847
+ihlas,bebou,23/04/1994,44.0,119.0,86.0,tsg hoffenheim,attack,2.2,87.66835633773809
+ilay,elmkies,10/03/2000,1.0,0.0,0.0,tsg hoffenheim,midfield,0.8,0.20769063051212305
+jacob,italiano,30/07/2001,0.0,0.0,0.0,bor. mönchengladbach,attack,0.5,0.0
+jamal,musiala,26/02/2003,0.0,78.0,160.0,bayern münchen,midfield,4.2,100.94853696114289
+jan,schröder,15/04/2003,0.0,0.0,0.0,eintracht frankfurt,defense,0.5,0.0
+jannik,horz,14/04/2003,0.0,0.0,0.0,eintracht frankfurt,goal,0.5,0.0
+jean-manuel,mbom,24/02/2000,0.0,-9.0,0.0,werder bremen,midfield,1.3,-2.834008041612888
+jessic,ngankam,20/07/2000,0.0,25.0,27.0,hertha bsc,attack,1.3,20.762573411369814
+johannes,schenk,13/01/2003,0.0,0.0,0.0,bayern münchen,goal,0.5,0.0
+joscha,wosz,20/07/2002,0.0,2.0,0.0,rb leipzig,midfield,0.5,0.629779564802864
+joshua,eze,20/03/2003,0.0,0.0,0.0,bayer 04 leverkusen,midfield,0.5,0.0
+josko,gvardiol,23/01/2002,0.0,0.0,167.0,rb leipzig,defense,3.4,79.72907104343632
+kelian,nsona,11/05/2002,0.0,0.0,0.0,hertha bsc,attack,0.6,0.0
+kevin,schade,27/11/2001,0.0,0.0,88.0,sc freiburg,attack,1.8,42.01292366360716
+kouadio,koné,17/05/2001,0.0,0.0,111.0,bor. mönchengladbach,midfield,2.2,52.993574166595394
+leo,greiml,03/07/2001,0.0,0.0,0.0,fc schalke 04,defense,1.2,0.0
+leon,goretzka,06/02/1995,136.0,139.0,115.0,bayern münchen,midfield,5.8,126.91885801838895
+lino,kasten,17/01/2001,0.0,0.0,0.0,vfl wolfsburg,goal,0.5,0.0
+luca,unbehaun,27/02/2001,0.0,0.0,0.0,borussia dortmund,goal,0.5,0.0
+mamadou,doucouré,21/05/1998,2.0,0.0,0.0,bor. mönchengladbach,defense,0.5,0.4153812610242461
+manuel,akanji,19/07/1995,33.0,77.0,147.0,borussia dortmund,defense,3.0,101.28098335351774
+marcel,lotka,25/05/2001,0.0,0.0,52.0,borussia dortmund,goal,0.7,24.82581852849514
+marin,pongracic,11/09/1997,29.0,6.0,48.0,vfl wolfsburg,defense,1.5,30.82850715940952
+mattias,svanberg,05/01/1999,0.0,0.0,0.0,vfl wolfsburg,midfield,2.6,0.0
+michael,langer,06/01/1985,0.0,11.0,0.0,fc schalke 04,goal,0.5,3.4637876064157522
+morten,thorsby,05/05/1996,0.0,0.0,0.0,1. fc union berlin,midfield,1.8,0.0
+nadiem,amiri,27/10/1996,51.0,19.0,0.0,bayer 04 leverkusen,midfield,1.8,16.575128021745485
+nico,schulz,01/04/1993,7.0,9.0,34.0,borussia dortmund,defense,1.5,20.52010841613688
+noah,joel sarenren bazee,21/08/1996,20.0,6.0,32.0,fc augsburg,midfield,0.8,21.320578091417293
+ömer,beyaz,29/08/2003,0.0,0.0,8.0,vfb stuttgart,midfield,0.5,3.81935669669156
+omar,alderete,26/12/1996,0.0,17.0,0.0,hertha bsc,defense,2.0,5.353126300824344
+paulo,otavio,23/11/1994,30.0,34.0,33.0,vfl wolfsburg,defense,1.7,32.69181789086507
+philipp,klement,09/09/1992,0.0,20.0,0.0,vfb stuttgart,midfield,1.2,6.29779564802864
+reece,oxford,16/12/1998,2.0,5.0,134.0,fc augsburg,defense,2.0,65.96405484261503
+ronael,pierre-gabriel,13/06/1998,-13.0,0.0,0.0,1. fsv mainz 05,defense,1.2,-2.6999781966575997
+ruben,vargas,05/08/1998,73.0,58.0,64.0,fc augsburg,midfield,1.6,63.979876980200515
+salih,özcan,11/01/1998,0.0,16.0,187.0,borussia dortmund,midfield,3.2,94.31569930358812
+sebastien,haller,22/06/1994,0.0,0.0,0.0,borussia dortmund,attack,6.0,0.0
+solomon,bonnah,19/08/2003,0.0,0.0,2.0,rb leipzig,defense,0.5,0.95483917417289
+steffen,tigges,31/07/1998,0.0,0.0,31.0,1. fc köln,attack,1.6,14.800007199679795
+stevan,jovetic,02/11/1989,0.0,0.0,92.0,hertha bsc,attack,2.2,43.92260201195294
+timo,baumgartl,04/03/1996,0.0,0.0,124.0,1. fc union berlin,defense,2.2,59.20002879871918
+tobias,strobl,12/05/1990,22.0,10.0,4.0,fc augsburg,midfield,1.0,9.627770043626807
+wahid,faghir,29/07/2003,0.0,0.0,19.0,vfb stuttgart,attack,1.0,9.070972154642455
+yussuf,poulsen,15/06/1994,66.0,79.0,121.0,rb leipzig,attack,3.0,96.35164446097309
