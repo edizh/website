@@ -1,6 +1,6 @@
 ---
 import { getCollection, render } from 'astro:content';
-import BlogPost from '../../layouts/BlogPost.astro';
+import CoursePost from '../../layouts/CoursePost.astro';
 
 const entries = await getCollection('course');
 if (entries.length === 0) {
@@ -10,6 +10,6 @@ const entry = entries.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.v
 const { Content } = await render(entry);
 ---
 
-<BlogPost {...entry.data}>
+<CoursePost {...entry.data}>
 	<Content />
-</BlogPost>
+</CoursePost>
