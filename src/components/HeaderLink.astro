@@ -1,6 +1,6 @@
 ---
 import type { HTMLAttributes } from 'astro/types';
-import { baseUrl } from '../consts';
+import { publicSiteRoot } from '../lib/siteUrl';
 
 type Props = HTMLAttributes<'a'>;
 
@@ -11,10 +11,13 @@ function stripTrailingSlash(p: string) {
 	return p;
 }
 
+const root = publicSiteRoot(Astro.site);
 const here = stripTrailingSlash(Astro.url.pathname);
-const target = stripTrailingSlash(typeof href === 'string' ? href : '');
-const blogRoot = stripTrailingSlash(`${baseUrl}blog`);
-const courseRoot = stripTrailingSlash(`${baseUrl}course`);
+const target = stripTrailingSlash(
+	typeof href === 'string' ? new URL(href, Astro.site).pathname : '',
+);
+const blogRoot = stripTrailingSlash(new URL('blog/', root).pathname);
+const courseRoot = stripTrailingSlash(new URL('course/', root).pathname);
 
 const isActive =
 	here === target ||

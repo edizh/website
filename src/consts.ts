@@ -1,7 +1,7 @@
 // Place any global data in this file.
 // You can import this data from anywhere in your site by using the `import` keyword.
 
-/** `import.meta.env.BASE_URL` — with `trailingSlash: "always"` in `astro.config` it always ends with `/`. */
+/** `import.meta.env.BASE_URL` — with `trailingSlash: "always"` in `astro.config` it always ends with `/`. Used by `lib/siteUrl.ts`. */
 export const baseUrl = import.meta.env.BASE_URL;
 
 export const FULL_NAME = 'Ediz Herkert';

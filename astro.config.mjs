@@ -10,7 +10,7 @@ import remarkMath from 'remark-math';
 export default defineConfig({
 	site: 'https://edizh.github.io',
 	base: '/website',
-	// Makes `import.meta.env.BASE_URL` end with `/` (see Astro `base` docs); use `${baseUrl}blog/` in links.
+	// Makes `import.meta.env.BASE_URL` end with `/` (see Astro `base` docs). Prefer `src/lib/siteUrl.ts` over string concat.
 	trailingSlash: 'always',
 	integrations: [
 		mdx({

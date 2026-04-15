@@ -1,16 +1,17 @@
 ---
-import { FULL_NAME, baseUrl } from '../consts';
+import { FULL_NAME } from '../consts';
+import { sitePath } from '../lib/siteUrl';
 import HeaderLink from './HeaderLink.astro';
 import SocialLinks from './SocialLinks.astro';
 ---
 
 <header>
 	<nav data-nav>
-		<h2><a href={baseUrl}>{FULL_NAME}</a></h2>
+		<h2><a href={sitePath(Astro.site, '')}>{FULL_NAME}</a></h2>
 		<div class="internal-links" id="nav-menu">
-			<HeaderLink href={baseUrl}>Home</HeaderLink>
-			<HeaderLink href={`${baseUrl}blog/`}>Blog</HeaderLink>
-			<HeaderLink href={`${baseUrl}course/`}>Course</HeaderLink>
+			<HeaderLink href={sitePath(Astro.site, '')}>Home</HeaderLink>
+			<HeaderLink href={sitePath(Astro.site, 'blog/')}>Blog</HeaderLink>
+			<HeaderLink href={sitePath(Astro.site, 'course/')}>Course</HeaderLink>
 		</div>
 		<!-- Wrapper so mobile `display: none` wins over scoped `display: flex` on `.social-links` in SocialLinks.astro. -->
 		<div class="header-social">
