@@ -4,7 +4,7 @@
 /** `import.meta.env.BASE_URL` — with `trailingSlash: "always"` in `astro.config` it always ends with `/`. */
 export const baseUrl = import.meta.env.BASE_URL;
 
-export const FULL_NAME = 'Dr. Ediz Herkert';
+export const FULL_NAME = 'Ediz Herkert';
 
 /** Site `<title>`, RSS feed name, etc. Defaults to your full name; change if you want a shorter title. */
 export const SITE_TITLE = FULL_NAME;
