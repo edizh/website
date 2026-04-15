@@ -12,7 +12,10 @@ import SocialLinks from './SocialLinks.astro';
 			<HeaderLink href={`${baseUrl}blog/`}>Blog</HeaderLink>
 			<HeaderLink href={`${baseUrl}course/`}>Course</HeaderLink>
 		</div>
-		<SocialLinks />
+		<!-- Wrapper so mobile `display: none` wins over scoped `display: flex` on `.social-links` in SocialLinks.astro. -->
+		<div class="header-social">
+			<SocialLinks />
+		</div>
 	</nav>
 </header>
 <style>
@@ -54,7 +57,7 @@ import SocialLinks from './SocialLinks.astro';
 		text-decoration: none;
 	}
 	@media (max-width: 720px) {
-		:global(header .social-links) {
+		.header-social {
 			display: none;
 		}
 	}
