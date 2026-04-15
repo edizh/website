@@ -128,6 +128,10 @@ hr {
 	main {
 		padding: 1em;
 	}
+	header nav[data-nav] .internal-links a {
+		padding: 0.65em 0;
+		border-bottom-width: 2px;
+	}
 }
 
 .sr-only {
@@ -150,5 +154,28 @@ hr {
 
 .katex {
 	font-size: 1em;
+}
+
+/*
+  Site header: keep nav chrome colors independent of Astro scoped CSS and `a { color }`
+  on every page (including future routes). Selectors use [data-nav] to avoid collisions.
+*/
+header nav[data-nav] h2 a {
+	color: rgb(var(--black));
+	padding: 1em 0.5em;
+	border-bottom: 4px solid transparent;
+	text-decoration: none;
+}
+header nav[data-nav] .internal-links a {
+	color: rgb(var(--black));
+	padding: 1em 0.5em;
+	border-bottom: 4px solid transparent;
+	text-decoration: none;
+}
+header nav[data-nav] .internal-links a.active {
+	border-bottom-color: var(--accent);
+}
+header nav[data-nav] button.nav-toggle {
+	color: var(--accent);
 }
 
