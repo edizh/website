@@ -53,7 +53,7 @@ It highlights that correctly choosing one of the latter three strategies limits 
 
 This article has demonstrated that optimizing xPs per throw enables the derivation of three practical strategies. There are certainly many other interesting aspects to consider to find even better dart strategies.
 
-On the one hand, we have assumed that the darts spread out in a circle around a target point. In reality, however, the spread is probably greater either in the horizontal or vertical direction. You can see how this affects the optimal dart strategy in my [follow-up article](http://localhost:4321/blog/darts-for-smarties-2). On the other hand, to win the game, the objective needs to shift from maximizing the xPs per throw to hitting exactly the points you have left on your score sheet.
+On the one hand, we have assumed that the darts spread out in a circle around a target point. In reality, however, the spread is probably greater either in the horizontal or vertical direction. You can see how this affects the optimal dart strategy in my [follow-up article](https://edizh.github.io/website/blog/darts-for-smarties-2). On the other hand, to win the game, the objective needs to shift from maximizing the xPs per throw to hitting exactly the points you have left on your score sheet.
 
 Do you have any additional ideas to explore to find the perfect dart strategy? Feel free to share your thoughts! Let me know how you liked the article and if anything was left unclear. You can find the full Python code [here](https://github.com/edizh/single_darts_1).
 
