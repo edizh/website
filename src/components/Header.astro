@@ -5,9 +5,9 @@ import SocialLinks from './SocialLinks.astro';
 ---
 
 <header>
-	<nav>
+	<nav data-nav>
 		<h2><a href={baseUrl}>{FULL_NAME}</a></h2>
-		<div class="internal-links">
+		<div class="internal-links" id="nav-menu">
 			<HeaderLink href={baseUrl}>Home</HeaderLink>
 			<HeaderLink href={`${baseUrl}blog/`}>Blog</HeaderLink>
 			<HeaderLink href={`${baseUrl}course/`}>Course</HeaderLink>
@@ -16,8 +16,43 @@ import SocialLinks from './SocialLinks.astro';
 		<div class="header-social">
 			<SocialLinks />
 		</div>
+		<button
+			type="button"
+			class="nav-toggle"
+			aria-expanded="false"
+			aria-controls="nav-menu"
+			aria-label="Open navigation menu"
+		>
+			<span class="nav-toggle-bars" aria-hidden="true"></span>
+		</button>
 	</nav>
 </header>
+<script>
+	function setupNav() {
+		const nav = document.querySelector<HTMLElement>('[data-nav]');
+		const btn = nav?.querySelector<HTMLButtonElement>('.nav-toggle');
+		const menu = document.getElementById('nav-menu');
+		if (!nav || !btn || !menu) return;
+
+		function setOpen(open: boolean) {
+			nav.classList.toggle('is-open', open);
+			btn.setAttribute('aria-expanded', String(open));
+			btn.setAttribute('aria-label', open ? 'Close navigation menu' : 'Open navigation menu');
+		}
+
+		btn.addEventListener('click', () => setOpen(!nav.classList.contains('is-open')));
+
+		menu.querySelectorAll('a').forEach((a) => {
+			a.addEventListener('click', () => setOpen(false));
+		});
+
+		document.addEventListener('keydown', (e) => {
+			if (e.key === 'Escape') setOpen(false);
+		});
+	}
+
+	setupNav();
+</script>
 <style>
 	header {
 		margin: 0;
@@ -28,16 +63,25 @@ import SocialLinks from './SocialLinks.astro';
 	h2 {
 		margin: 0;
 		font-size: 1em;
+		min-width: 0;
 	}
 
 	h2 a,
 	h2 a.active {
 		text-decoration: none;
 	}
+	h2 a {
+		display: block;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
 	nav {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		flex-wrap: wrap;
+		gap: 0;
 	}
 	nav a {
 		padding: 1em 0.5em;
@@ -56,9 +100,100 @@ import SocialLinks from './SocialLinks.astro';
 		border-bottom: 4px solid transparent;
 		text-decoration: none;
 	}
+	.nav-toggle {
+		display: none;
+		align-items: center;
+		justify-content: center;
+		flex-shrink: 0;
+		width: 2.75rem;
+		height: 2.75rem;
+		margin: 0;
+		padding: 0;
+		border: none;
+		background: transparent;
+		color: rgb(var(--black));
+		cursor: pointer;
+		border-radius: 6px;
+	}
+	.nav-toggle:focus-visible {
+		outline: 2px solid var(--accent);
+		outline-offset: 2px;
+	}
+	.nav-toggle-bars {
+		position: relative;
+		display: block;
+		width: 1.35rem;
+		height: 2px;
+		background: currentColor;
+		border-radius: 1px;
+		box-shadow:
+			0 -6px 0 currentColor,
+			0 6px 0 currentColor;
+		transition:
+			box-shadow 0.2s ease,
+			background 0.2s ease;
+	}
+	nav.is-open .nav-toggle-bars {
+		background: transparent;
+		box-shadow: none;
+	}
+	nav.is-open .nav-toggle-bars::before,
+	nav.is-open .nav-toggle-bars::after {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 50%;
+		width: 100%;
+		height: 2px;
+		margin-top: -1px;
+		background: currentColor;
+		border-radius: 1px;
+		transition: transform 0.2s ease;
+	}
+	nav.is-open .nav-toggle-bars::before {
+		transform: rotate(45deg);
+	}
+	nav.is-open .nav-toggle-bars::after {
+		transform: rotate(-45deg);
+	}
+
 	@media (max-width: 720px) {
 		.header-social {
 			display: none;
+		}
+		.nav-toggle {
+			display: flex;
+			order: 2;
+			margin-left: auto;
+		}
+		h2 {
+			order: 1;
+			flex: 1;
+			min-width: 0;
+		}
+		.internal-links {
+			display: none;
+			order: 3;
+			flex: 1 1 100%;
+			width: 100%;
+			flex-direction: column;
+			align-items: stretch;
+			padding: 0.25em 0 0.75em;
+			margin: 0;
+			border-top: 1px solid rgba(var(--gray), 22%);
+		}
+		nav.is-open .internal-links {
+			display: flex;
+		}
+		.internal-links :global(a) {
+			padding: 0.65em 0;
+			border-bottom-width: 2px;
+		}
+	}
+
+	@media (min-width: 721px) {
+		.nav-toggle {
+			display: none !important;
 		}
 	}
 </style>
