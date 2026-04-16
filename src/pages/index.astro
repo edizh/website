@@ -4,6 +4,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import { sitePath } from '../lib/siteUrl';
 import homepagePhoto from '../assets/homepage.jpg';
 ---
 
@@ -27,13 +28,24 @@ import homepagePhoto from '../assets/homepage.jpg';
 		<main>
 			<section aria-label="Introduction">
 				<h1>Hi, I'm Ediz! 👋</h1>
-								<p>
-					I’m a postdoctoral researcher working in nanophotonics. Here, I share technical blog posts,
-					coding projects, and other resources connected to my professional work.
+				<p>
+					I’m a postdoctoral researcher in nanophotonics. Here, I share technical blog posts,
+					coding projects, and other resources connected to my work.
 				</p>
 				<p>
 					I created this site as a simple place to collect and share my professional projects. You can learn more about me through the social links below. Feel free to explore.
 				</p>
+				<ul>
+					<li>
+						👉 <a href={sitePath(Astro.site, 'blog/')}>Tech Blog</a>
+					</li>
+					<li>
+						👉 <a href={sitePath(Astro.site, 'course/')}>Python Course</a>
+					</li>
+					<li>
+						👇 Social Links
+					</li>
+				</ul>
 			</section>
 		</main>
 		<Footer />
