@@ -99,6 +99,8 @@ code {
 	padding: 2px 5px;
 	background-color: rgb(var(--gray-light));
 	border-radius: 2px;
+	/* Slightly below body text; monospace often reads larger at the same em size. */
+	font-size: 0.88em;
 }
 pre {
 	padding: 0.5em;
