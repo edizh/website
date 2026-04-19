@@ -66,7 +66,7 @@ const resume = defineCollection({
 			)
 			.optional(),
 		skills: z.array(z.string()).optional(),
-		honors: z.array(z.string()).optional(),
+		awards: z.array(z.string()).optional(),
 		languages: z.string().optional(),
 	}),
 });
