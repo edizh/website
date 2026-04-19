@@ -56,7 +56,7 @@ education:
     institutionDetail: Marie Skłodowska-Curie Fellow
     dates: 2019 — 2024
     note: Development and fabrication of plasmonic nanostructures for multicolor single-molecule fluorescence sensing at high concentrations.
-  - degree: M.Sc. Photonic Engineering
+  - degree: M.Sc. in Photonic Engineering
     institution: University of Stuttgart
     dates: 2016 — 2019
     note: German GPA 1.1 (with distinction); ranked 1st of 17; thesis on plasmonic metasurface scattering.
@@ -64,7 +64,7 @@ education:
     institution: KTH Royal Institute of Technology
     dates: '2018'
     note: Swedish GPA B (very good); coursework in machine learning and satellite data processing.
-  - degree: B.Sc. Physics
+  - degree: B.Sc. in Physics
     institution: University of Stuttgart
     dates: 2012 — 2015
     note: German GPA 1.6; ranked 10th of 81; thesis on large-area plasmonic hydrogen sensors.
