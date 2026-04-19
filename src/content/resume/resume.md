@@ -1,7 +1,7 @@
 ---
 title: Resume
 description: >-
-  Postdoctoral researcher at ICFO — nanophotonics, plasmonics, optical gas sensing,
+  Postdoctoral researcher at ICFO · nanophotonics, plasmonics, optical gas sensing,
   and single-molecule biosensing.
 tagline: Postdoctoral researcher in nanophotonics · ICFO · Barcelona, Spain
 updatedDate: 2026-04-19
@@ -69,8 +69,8 @@ education:
     dates: 2012 — 2015
     note: German GPA 1.6; ranked 10th of 81; thesis on large-area plasmonic hydrogen sensors.
 awards:
-  - Zeiss hackathon — 1st place (2017)
-  - Zeiss hackathon — 3rd place (2019)
+  - Zeiss hackathon · 1st place (2017)
+  - Zeiss hackathon · 3rd place (2019)
 skills:
   - Nanophotonics
   - Nanofabrication
