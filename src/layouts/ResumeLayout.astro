@@ -32,7 +32,12 @@ const pageTitle = `${FULL_NAME} — ${title}`;
 		<BaseHead title={pageTitle} description={description} />
 		<style>
 			main.resume {
-				max-width: 42rem;
+				box-sizing: border-box;
+				width: 100%;
+				max-width: min(42rem, 100%);
+			}
+			main.resume article {
+				overflow-x: hidden;
 			}
 			.resume-header {
 				display: flex;
@@ -90,19 +95,6 @@ const pageTitle = `${FULL_NAME} — ${title}`;
 				padding: 0;
 				list-style: none;
 				font-size: 0.95rem;
-			}
-			@media (max-width: 540px) {
-				.resume-header {
-					flex-direction: column;
-					align-items: stretch;
-				}
-				.resume-header-photo {
-					order: -1;
-					align-self: center;
-					width: min(11rem, 72vw);
-					max-width: none;
-					aspect-ratio: 1;
-				}
 			}
 			.contact a {
 				text-decoration: none;
@@ -213,6 +205,76 @@ const pageTitle = `${FULL_NAME} — ${title}`;
 				font-size: 0.95rem;
 				line-height: 1.55;
 				color: rgb(var(--gray-dark));
+			}
+			@media (max-width: 640px) {
+				main.resume {
+					padding-left: max(0.75rem, env(safe-area-inset-left));
+					padding-right: max(0.75rem, env(safe-area-inset-right));
+				}
+				.resume-header {
+					flex-direction: column;
+					align-items: stretch;
+					gap: 1.15rem;
+				}
+				.resume-header-text {
+					order: 1;
+				}
+				.resume-header-photo {
+					order: 0;
+					align-self: center;
+					width: min(10.5rem, 52vw);
+					max-width: none;
+					aspect-ratio: 1;
+				}
+				.resume-header h1 {
+					font-size: clamp(1.45rem, 5vw, 1.85rem);
+					line-height: 1.2;
+				}
+				.tagline {
+					font-size: 1rem;
+					line-height: 1.45;
+				}
+				.summary {
+					hyphens: auto;
+					overflow-wrap: break-word;
+				}
+				section {
+					margin-bottom: 1.65rem;
+				}
+				section h2 {
+					font-size: 1.05rem;
+					margin-bottom: 0.85rem;
+				}
+				.item-head {
+					flex-direction: column;
+					align-items: flex-start;
+					gap: 0.3rem 0;
+				}
+				.item-dates {
+					white-space: normal;
+					align-self: flex-start;
+					width: 100%;
+				}
+				.item-org {
+					overflow-wrap: anywhere;
+				}
+				.item-title {
+					font-size: 1rem;
+				}
+				.item li,
+				.item-meta {
+					font-size: 0.92rem;
+				}
+				.skills {
+					font-size: 0.9rem;
+					gap: 0.4rem 0.55rem;
+					line-height: 1.45;
+				}
+				.awards-list,
+				.languages {
+					font-size: 0.92rem;
+					overflow-wrap: anywhere;
+				}
 			}
 			@media print {
 				body {
