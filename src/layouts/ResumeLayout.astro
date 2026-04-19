@@ -9,7 +9,6 @@ import { FULL_NAME } from '../consts';
 type Props = CollectionEntry<'resume'>['data'];
 
 const {
-	title,
 	description,
 	tagline,
 	updatedDate,
@@ -21,13 +20,11 @@ const {
 	languages,
 	skills,
 } = Astro.props;
-
-const pageTitle = `${FULL_NAME} — ${title}`;
 ---
 
 <html lang="en">
 	<head>
-		<BaseHead title={pageTitle} description={description} />
+		<BaseHead description={description} />
 		<style>
 			main.resume {
 				box-sizing: border-box;
