@@ -1,0 +1,16 @@
+---
+import { getCollection } from 'astro:content';
+import ResumeLayout from '../../layouts/ResumeLayout.astro';
+
+const entries = await getCollection('resume');
+if (entries.length === 0) {
+	throw new Error('Add a .md or .mdx file under src/content/resume/');
+}
+const entry = entries.sort((a, b) => {
+	const da = a.data.updatedDate?.valueOf() ?? 0;
+	const db = b.data.updatedDate?.valueOf() ?? 0;
+	return db - da;
+})[0];
+---
+
+<ResumeLayout {...entry.data} />
