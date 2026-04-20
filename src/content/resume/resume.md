@@ -67,7 +67,7 @@ education:
   - degree: B.Sc. in Physics
     institution: University of Stuttgart
     dates: 2012 — 2015
-    note: German GPA 1.6; ranked 10th of 81; thesis on large-area plasmonic hydrogen sensors.
+    note: German GPA 1.6 (very good); ranked 10th of 81; thesis on large-area plasmonic hydrogen sensors.
 awards:
   - Zeiss hackathon · 1st place (2017)
   - Zeiss hackathon · 3rd place (2019)
