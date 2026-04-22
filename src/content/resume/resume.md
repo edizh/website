@@ -55,7 +55,7 @@ education:
     institution: ICFO
     institutionDetail: Marie Skłodowska-Curie Fellow
     dates: 2019 — 2024
-    note: Development and fabrication of plasmonic nanostructures for multicolor single-molecule fluorescence sensing at high concentrations.
+    note: With distinction; development and fabrication of plasmonic nanostructures for multicolor single-molecule fluorescence sensing at high concentrations.
   - degree: M.Sc. in Photonic Engineering
     institution: University of Stuttgart
     dates: 2016 — 2019
